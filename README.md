@@ -1,14 +1,15 @@
-# tp-live
+fi
 
-Where the TestPlatform on the IIT Mandi network is right now.
+# Root-owned pieces: the timer, the service and the NetworkManager hook, which
+# NetworkManager only runs when the file is owned by root and not writable by
+# anyone else.
+sudo_run install -m 0644 -o root -g root "$HERE/tp-live-link.service" /etc/systemd/system/tp-live-link.service
+sudo_run install -m 0644 -o root -g root "$HERE/tp-live-link.timer" /etc/systemd/system/tp-live-link.timer
+sudo_run install -m 0755 -o root -g root "$HERE/91-tp-live" /etc/NetworkManager/dispatcher.d/91-tp-live
+sudo_run systemctl daemon-reload
+sudo_run systemctl enable -q --now tp-live-link.timer
 
-The Pi that runs it gets its address from DHCP and that address moves, so
-this site is a fixed door: every page here forwards to the platform's
-current address. Open https://tayaladitya.github.io/tp-live/ from the
-campus WiFi. `/admin`, `/teacher`, `/student` and `/login` go straight to
-those routes; any other path is forwarded as typed. Add `?stay` to read the
-address instead of being sent on, or `?port=4010` for another service on the
-same machine. `address.txt` and `address.json` hold the bare address for
-scripts.
-
-The Pi rewrites and pushes these files itself whenever its address changes.
+echo
+echo "Installed. Deploy key to add to $REPO (write access):"
+cat "$KEY.pub"
+echo

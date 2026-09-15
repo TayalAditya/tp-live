@@ -20,13 +20,14 @@
 <main>
   <h1>TestPlatform, student dashboard</h1>
   <p>Taking you to <a id="target" href="http://172.16.5.127/student">http://172.16.5.127/student</a>.</p>
-  <p>The Pi is at <code>172.16.5.127</code> (published 2026-09-15 15:11 UTC).</p>
-  <p><small>The platform runs on the institute network, so the link works from the campus WiFi only. Add <code>?stay</code> to read the address without being redirected, or <code>?port=4010</code> to reach another service on the same machine.</small></p>
+  <p>The Pi is at <code>172.16.5.127</code> (since 2026-09-15 15:11 UTC).</p>
+  <p><small>The platform runs on the institute network, so the link works from the campus WiFi only, and a change of address takes up to ten minutes to reach this page. Add <code>?stay</code> to read the address without being redirected. <a href="https://tayaladitya.github.io/tp/">Every portal on this Pi</a>.</small></p>
 </main>
 <script>
 (function () {
   var q = new URLSearchParams(location.search);
-  var host = '172.16.5.127', port = q.get('port') || '80', path = '/student';
+  var host = '172.16.5.127', port = '80', path = '/student';
+  if (/^[0-9]{1,5}$/.test(q.get('port') || '')) port = q.get('port');
   if (path === '@request') {
     path = location.pathname;
     if (path.indexOf('/tp-live') === 0) path = path.slice('/tp-live'.length);

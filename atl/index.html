@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<noscript><meta http-equiv="refresh" content="0; url=http://172.16.5.127/"></noscript>
-<title>TestPlatform, IIT Mandi</title>
+<noscript><meta http-equiv="refresh" content="0; url=http://172.16.5.127:8080/"></noscript>
+<title>TinkerBench, the DoFA ATL virtual tinkering lab</title>
 <style>
   body { margin: 0; padding: 2rem 1.5rem; font: 16px/1.5 "IBM Plex Sans", system-ui, sans-serif; color: #1f2937; background: #f7f7f5; }
   main { max-width: 36rem; margin: 0 auto; }
@@ -18,15 +18,15 @@
 </head>
 <body>
 <main>
-  <h1>TestPlatform, IIT Mandi</h1>
-  <p>Taking you to <a id="target" href="http://172.16.5.127/">http://172.16.5.127/</a>.</p>
+  <h1>TinkerBench, the DoFA ATL virtual tinkering lab</h1>
+  <p>Taking you to <a id="target" href="http://172.16.5.127:8080/">http://172.16.5.127:8080/</a>.</p>
   <p>The Pi is at <code>172.16.5.127</code> (since 2026-09-15 15:11 UTC).</p>
-  <p><small>The platform runs on the institute network, so the link works from the campus WiFi only, and a change of address takes up to ten minutes to reach this page. Add <code>?stay</code> to read the address without being redirected. <a href="https://tayaladitya.github.io/tp/">Every portal on this Pi</a>.</small></p>
+  <p><small>TinkerBench runs on the institute network, so the link works from the campus WiFi only, and a change of address takes up to ten minutes to reach this page. Add <code>?stay</code> to read the address without being redirected. <a href="https://tayaladitya.github.io/tp/">Every portal on this Pi</a>.</small></p>
 </main>
 <script>
 (function () {
   var q = new URLSearchParams(location.search);
-  var host = '172.16.5.127', port = '80', path = '@request';
+  var host = '172.16.5.127', port = '8080', path = '/';
   if (/^[0-9]{1,5}$/.test(q.get('port') || '')) port = q.get('port');
   if (path === '@request') {
     path = location.pathname;
