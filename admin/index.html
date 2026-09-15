@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<noscript><meta http-equiv="refresh" content="0; url=http://172.16.5.127/admin"></noscript>
+<title>TestPlatform, admin panel</title>
+<style>
+  body { margin: 0; padding: 2rem 1.5rem; font: 16px/1.5 "IBM Plex Sans", system-ui, sans-serif; color: #1f2937; background: #f7f7f5; }
+  main { max-width: 36rem; margin: 0 auto; }
+  h1 { font-size: 1.25rem; margin: 0 0 0.5rem; }
+  p { margin: 0.5rem 0; }
+  a { color: #0b3d91; }
+  code { font: 15px/1.4 "IBM Plex Mono", ui-monospace, monospace; }
+  small { color: #6b7280; }
+</style>
+</head>
+<body>
+<main>
+  <h1>TestPlatform, admin panel</h1>
+  <p>Taking you to <a id="target" href="http://172.16.5.127/admin">http://172.16.5.127/admin</a>.</p>
+  <p>The Pi is at <code>172.16.5.127</code> (published 2026-09-15 15:11 UTC).</p>
+  <p><small>The platform runs on the institute network, so the link works from the campus WiFi only. Add <code>?stay</code> to read the address without being redirected, or <code>?port=4010</code> to reach another service on the same machine.</small></p>
+</main>
+<script>
+(function () {
+  var q = new URLSearchParams(location.search);
+  var host = '172.16.5.127', port = q.get('port') || '80', path = '/admin';
+  if (path === '@request') {
+    path = location.pathname;
+    if (path.indexOf('/tp-live') === 0) path = path.slice('/tp-live'.length);
+    if (path === '' || path.charAt(0) !== '/') path = '/' + path;
+  }
+  var stay = q.has('stay');
+  q.delete('port'); q.delete('stay');
+  var qs = q.toString();
+  var target = 'http://' + host + (port === '80' ? '' : ':' + port) + path + (qs ? '?' + qs : '') + location.hash;
+  var a = document.getElementById('target');
+  a.href = target; a.textContent = target;
+  if (!stay) location.replace(target);
+})();
+</script>
+</body>
+</html>
