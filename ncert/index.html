@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<noscript><meta http-equiv="refresh" content="0; url=http://172.16.5.132:8091/"></noscript>
+<noscript><meta http-equiv="refresh" content="0; url=http://172.16.5.204:8091/"></noscript>
 <title>NCERT Sim</title>
 <style>
   body { margin: 0; padding: 2rem 1.5rem; font: 16px/1.5 "IBM Plex Sans", system-ui, sans-serif; color: #1f2937; background: #f7f7f5; }
@@ -19,14 +19,14 @@
 <body>
 <main>
   <h1>NCERT Sim</h1>
-  <p>Taking you to <a id="target" href="http://172.16.5.132:8091/">http://172.16.5.132:8091/</a>.</p>
-  <p>The Pi is at <code>172.16.5.132</code> (since 2026-09-23 15:43 UTC).</p>
+  <p>Taking you to <a id="target" href="http://172.16.5.204:8091/">http://172.16.5.204:8091/</a>.</p>
+  <p>The Pi is at <code>172.16.5.204</code> (since 2026-09-23 15:47 UTC).</p>
   <p><small>NCERT Sim runs on the institute network, so the link works from the campus WiFi only, and a change of address takes up to ten minutes to reach this page. Add <code>?stay</code> to read the address without being redirected. <a href="https://tayaladitya.github.io/tp/">Every portal on this Pi</a>.</small></p>
 </main>
 <script>
 (function () {
   var q = new URLSearchParams(location.search);
-  var host = '172.16.5.132', port = '8091', path = '/';
+  var host = '172.16.5.204', port = '8091', path = '/';
   if (/^[0-9]{1,5}$/.test(q.get('port') || '')) port = q.get('port');
   if (path === '@request') {
     path = location.pathname;
