@@ -26,8 +26,8 @@
 <script>
 (function () {
   var q = new URLSearchParams(location.search);
-  var host = '172.16.5.41', port = '8090', path = '/';
-  if (/^[0-9]{1,5}$/.test(q.get('port') || '')) port = q.get('port');
+  var host = '172.16.5.41', port = '8090', path = '/', pi = '172.16.5.41';
+  if (/^[0-9]{1,5}$/.test(q.get('port') || '')) { host = pi; port = q.get('port'); }
   if (path === '@request') {
     path = location.pathname;
     if (path.indexOf('/tp-live') === 0) path = path.slice('/tp-live'.length);
