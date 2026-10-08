@@ -1,0 +1,92 @@
+{
+ "updated": "09 Oct 2026, 00:45 IST",
+ "dashboard": "http://172.16.5.185:8099/",
+ "apps": [
+  {
+   "id": "tinkerbench",
+   "name": "ATaLBench",
+   "branch": "rpi",
+   "state": "live",
+   "live": "287b45e",
+   "live_since": "09 Oct 2026, 00:42 IST",
+   "latest": "287b45e",
+   "paused": false,
+   "last": {
+    "result": "live",
+    "commit": "287b45e",
+    "stage": null,
+    "at": "09 Oct 2026, 00:42 IST"
+   }
+  },
+  {
+   "id": "dofa-sim",
+   "name": "Simulation Lab",
+   "branch": "rpi",
+   "state": "live",
+   "live": "8ec25e6",
+   "live_since": "09 Oct 2026, 00:43 IST",
+   "latest": "8ec25e6",
+   "paused": false,
+   "last": {
+    "result": "live",
+    "commit": "8ec25e6",
+    "stage": null,
+    "at": "09 Oct 2026, 00:43 IST"
+   }
+  },
+  {
+   "id": "ncert-sim",
+   "name": "NCERT practicals",
+   "branch": "rpi",
+   "state": "live",
+   "live": "5f66939",
+   "live_since": "09 Oct 2026, 00:42 IST",
+   "latest": "5f66939",
+   "paused": false,
+   "last": {
+    "result": "live",
+    "commit": "5f66939",
+    "stage": null,
+    "at": "09 Oct 2026, 00:42 IST"
+   }
+  },
+  {
+   "id": "flp",
+   "name": "Faculty Leave Portal",
+   "branch": "rpi",
+   "state": "live",
+   "live": "9c16f39",
+   "live_since": "09 Oct 2026, 00:41 IST",
+   "latest": "9c16f39",
+   "paused": false,
+   "last": null
+  },
+  {
+   "id": "rasa",
+   "name": "RASA Lab website",
+   "branch": "master",
+   "state": "live",
+   "live": "926ff54",
+   "live_since": "07 Oct 2026, 18:31 IST",
+   "latest": "926ff54",
+   "paused": false,
+   "last": null
+  },
+  {
+   "id": "pi-deploy",
+   "name": "This deployer",
+   "branch": "rpi",
+   "state": "live",
+   "live": "9a1b253",
+   "live_since": "09 Oct 2026, 00:44 IST",
+   "latest": "9a1b253",
+   "paused": false,
+   "last": {
+    "result": "live",
+    "commit": "9a1b253",
+    "stage": null,
+    "at": "09 Oct 2026, 00:44 IST"
+   }
+  }
+ ]
+}

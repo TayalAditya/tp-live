@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pi deploy status</title>
+<meta name="robots" content="noindex">
+<style>
+  :root { --page: #eef1f5; --card: #fff; --ink: #172033; --muted: #6b7486; --rule: #d7dde7; --live: #1f7a4d; --busy: #9a6408; --bad: #b3261e; --idle: #6b7486; }
+  @media (prefers-color-scheme: dark) { :root { --page: #141a17; --card: #1c2420; --ink: #e8ece6; --muted: #9aa69d; --rule: #33413a; --live: #6fcf97; --busy: #f2c46d; --bad: #f28b82; --idle: #9aa69d; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 40px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .meta { color: var(--muted); font-size: 13px; margin: 0 0 16px; }
+  table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; font-size: 14px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 12.5px; }
+  tr:last-child td { border-bottom: 0; }
+  code { font: 12.5px ui-monospace, Consolas, monospace; }
+  .s { font-weight: 600; display: inline-flex; align-items: center; gap: 6px; }
+  .s::before { content: ""; width: 9px; height: 9px; border-radius: 2px; background: currentColor; }
+  .live { color: var(--live); } .deploying, .behind { color: var(--busy); } .failed { color: var(--bad); } .paused, .unknown { color: var(--idle); }
+  .small { color: var(--muted); font-size: 12.5px; }
+  @media (max-width: 560px) { .hide-s { display: none; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Pi deploy status</h1>
+  <p class="meta" id="meta">Loading...</p>
+  <table>
+    <thead><tr><th>App</th><th>State</th><th>Live</th><th class="hide-s">Last deploy</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <p class="meta" style="margin-top:14px">Push to a repository's <code>rpi</code> branch and the Pi deploys it within about a minute.
+    This page is published by the Pi itself, so it shows the picture as of its last update even when the Pi cannot be reached.
+    Logs and the deploy buttons are on the Pi's own dashboard, on the campus network.</p>
+</main>
+<script>
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const words = { live: 'Live', deploying: 'Deploying', failed: 'Failed, previous version kept', behind: 'New commit waiting', paused: 'Paused', unknown: 'Unknown' };
+async function load() {
+  try {
+    const r = await fetch('../deploy.json?t=' + Date.now(), { cache: 'no-store' });
+    const d = await r.json();
+    const dash = d.dashboard ? ` Dashboard on the campus network: <a href="${esc(d.dashboard)}">${esc(d.dashboard)}</a>` : '';
+    document.getElementById('meta').innerHTML = `Updated ${esc(d.updated)}.${dash}`;
+    document.getElementById('rows').innerHTML = d.apps.map((a) => {
+      let s = a.paused ? 'paused' : a.state || 'unknown';
+      if (s === 'live' && a.latest && a.live && a.latest !== a.live) s = 'behind';
+      const last = a.last ? `${esc(a.last.result)}${a.last.stage ? ' at ' + esc(a.last.stage) : ''} <code>${esc(a.last.commit || '')}</code><br><span class="small">${esc(a.last.at || '')}</span>` : '<span class="small">none yet</span>';
+      return `<tr><td>${esc(a.name)}<br><span class="small">branch ${esc(a.branch)}</span></td>
+        <td><span class="s ${s}">${esc(words[s] || s)}</span></td>
+        <td><code>${esc(a.live || '')}</code><br><span class="small">${esc(a.live_since || '')}</span></td>
+        <td class="hide-s">${last}</td></tr>`;
+    }).join('');
+  } catch { document.getElementById('meta').textContent = 'No status published yet.'; }
+}
+load();
+setInterval(load, 60000);
+</script>
+</body>
+</html>
