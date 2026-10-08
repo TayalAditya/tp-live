@@ -54,7 +54,7 @@
    "id": "flp",
    "name": "Faculty Leave Portal",
    "branch": "rpi",
-   "state": "failed",
+   "state": "deploying",
    "live": "9c16f39",
    "live_since": "09 Oct 2026, 00:41 IST",
    "latest": "9c16f39",
