@@ -1,5 +1,5 @@
 {
- "updated": "09 Oct 2026, 08:38 IST",
+ "updated": "09 Oct 2026, 08:40 IST",
  "dashboard": "http://172.16.5.185:8099/",
  "apps": [
   {
@@ -54,16 +54,16 @@
    "id": "flp",
    "name": "Faculty Leave Portal",
    "branch": "rpi",
-   "state": "deploying",
+   "state": "live",
    "live": "9c16f39",
-   "live_since": "09 Oct 2026, 00:58 IST",
+   "live_since": "09 Oct 2026, 08:40 IST",
    "latest": "9c16f39",
-   "paused": true,
+   "paused": false,
    "last": {
     "result": "live",
     "commit": "9c16f39",
     "stage": null,
-    "at": "09 Oct 2026, 00:58 IST"
+    "at": "09 Oct 2026, 08:40 IST"
    }
   },
   {
