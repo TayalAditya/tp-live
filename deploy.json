@@ -6,16 +6,16 @@
    "id": "tinkerbench",
    "name": "ATaLBench",
    "branch": "rpi",
-   "state": "deploying",
-   "live": "fa83c6a",
-   "live_since": "13 Oct 2026, 13:08 IST",
+   "state": "live",
+   "live": "1ce58eb",
+   "live_since": "13 Oct 2026, 16:00 IST",
    "latest": "1ce58eb",
    "paused": false,
    "last": {
     "result": "live",
-    "commit": "fa83c6a",
+    "commit": "1ce58eb",
     "stage": null,
-    "at": "13 Oct 2026, 13:08 IST"
+    "at": "13 Oct 2026, 16:00 IST"
    }
   },
   {
