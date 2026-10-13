@@ -1,21 +1,21 @@
 {
- "updated": "13 Oct 2026, 21:48 IST",
+ "updated": "13 Oct 2026, 21:49 IST",
  "dashboard": "http://172.16.5.129:8099/",
  "apps": [
   {
    "id": "tinkerbench",
    "name": "ATaLBench",
    "branch": "rpi",
-   "state": "deploying",
+   "state": "failed",
    "live": "3603f4e",
    "live_since": "13 Oct 2026, 20:55 IST",
    "latest": "96f0024",
    "paused": false,
    "last": {
-    "result": "live",
-    "commit": "3603f4e",
-    "stage": null,
-    "at": "13 Oct 2026, 20:55 IST"
+    "result": "failed",
+    "commit": "96f0024",
+    "stage": "verify",
+    "at": "13 Oct 2026, 21:49 IST"
    }
   },
   {
