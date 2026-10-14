@@ -1,15 +1,15 @@
 {
- "updated": "14 Oct 2026, 18:50 IST",
+ "updated": "14 Oct 2026, 19:37 IST",
  "dashboard": "http://172.16.5.65:8099/",
  "apps": [
   {
    "id": "tinkerbench",
    "name": "ATaLBench",
    "branch": "rpi",
-   "state": "live",
+   "state": "deploying",
    "live": "b5dab8b",
    "live_since": "14 Oct 2026, 18:50 IST",
-   "latest": "b5dab8b",
+   "latest": "3dbad37",
    "paused": false,
    "last": {
     "result": "live",
