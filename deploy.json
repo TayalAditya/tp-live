@@ -6,10 +6,10 @@
    "id": "tinkerbench",
    "name": "ATaLBench",
    "branch": "rpi",
-   "state": "live",
+   "state": "deploying",
    "live": "7c1fb81",
    "live_since": "14 Oct 2026, 09:17 IST",
-   "latest": "7c1fb81",
+   "latest": "c48e484",
    "paused": false,
    "last": {
     "result": "live",
