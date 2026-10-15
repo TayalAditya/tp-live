@@ -1,5 +1,5 @@
 {
- "updated": "15 Oct 2026, 11:26 IST",
+ "updated": "15 Oct 2026, 21:30 IST",
  "dashboard": "http://172.16.5.65:8099/",
  "apps": [
   {
@@ -70,10 +70,10 @@
    "id": "rasa",
    "name": "RASA Lab website",
    "branch": "master",
-   "state": "live",
-   "live": "926ff54",
-   "live_since": "07 Oct 2026, 18:31 IST",
-   "latest": "926ff54",
+   "state": "behind",
+   "live": "c97b9b7",
+   "live_since": "15 Oct 2026, 18:42 IST",
+   "latest": "81dfb53",
    "paused": false,
    "last": null
   },
