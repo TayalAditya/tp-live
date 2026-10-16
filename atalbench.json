@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
- "since": null,
- "stage": "connecting",
+ "url": "https://collins-screen-reuters-contributor.trycloudflare.com",
+ "up": true,
+ "since": "16 Oct 2026, 18:35 IST",
+ "stage": "up",
  "error": null,
  "campus": "../atl/"
 }
