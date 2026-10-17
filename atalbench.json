@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": "https://area-titled-realm-fair.trycloudflare.com",
- "up": true,
- "since": "16 Oct 2026, 18:38 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../atl/"
 }
