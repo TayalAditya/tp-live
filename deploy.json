@@ -1,6 +1,6 @@
 {
- "updated": "17 Oct 2026, 11:10 IST",
- "dashboard": "http://172.16.5.230:8099/",
+ "updated": "18 Oct 2026, 10:06 IST",
+ "dashboard": "http://172.16.5.77:8099/",
  "apps": [
   {
    "id": "tinkerbench",
