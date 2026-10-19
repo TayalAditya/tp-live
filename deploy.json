@@ -19,6 +19,17 @@
    }
   },
   {
+   "id": "mech-bench",
+   "name": "MechBench",
+   "branch": "rpi",
+   "state": "unknown",
+   "live": null,
+   "live_since": null,
+   "latest": null,
+   "paused": false,
+   "last": null
+  },
+  {
    "id": "dofa-sim",
    "name": "Simulation Lab",
    "branch": "rpi",
