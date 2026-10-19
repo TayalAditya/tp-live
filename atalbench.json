@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
- "since": "19 Oct 2026, 17:25 IST",
- "stage": "connecting",
- "error": "the public address stopped answering; last error: 2026-10-19T11:55:46Z ERR failed to serve incoming request error=\"Error shutting down control stream: context deadline exceeded\"",
+ "url": "https://discounts-hospitals-analyzed-trade.trycloudflare.com",
+ "up": true,
+ "since": "19 Oct 2026, 17:26 IST",
+ "stage": "up",
+ "error": null,
  "campus": "../atl/"
 }
