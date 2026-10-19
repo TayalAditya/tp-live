@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
- "since": null,
- "stage": "connecting",
+ "url": "https://sharing-iso-cleared-progress.trycloudflare.com",
+ "up": true,
+ "since": "20 Oct 2026, 01:47 IST",
+ "stage": "up",
  "error": null,
  "campus": "../atl/"
 }
