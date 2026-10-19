@@ -22,10 +22,10 @@
    "id": "mech-bench",
    "name": "MechBench",
    "branch": "rpi",
-   "state": "unknown",
+   "state": "deploying",
    "live": null,
    "live_since": null,
-   "latest": null,
+   "latest": "2c55509",
    "paused": false,
    "last": null
   },
