@@ -1,0 +1,9 @@
+{
+ "name": "MechBench",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
+ "error": null,
+ "campus": "../?port=8092"
+}
