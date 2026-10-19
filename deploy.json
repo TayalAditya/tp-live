@@ -22,12 +22,17 @@
    "id": "mech-bench",
    "name": "MechBench",
    "branch": "rpi",
-   "state": "deploying",
-   "live": null,
-   "live_since": null,
+   "state": "live",
+   "live": "2c55509",
+   "live_since": "20 Oct 2026, 01:47 IST",
    "latest": "2c55509",
    "paused": false,
-   "last": null
+   "last": {
+    "result": "live",
+    "commit": "2c55509",
+    "stage": null,
+    "at": "20 Oct 2026, 01:47 IST"
+   }
   },
   {
    "id": "dofa-sim",
