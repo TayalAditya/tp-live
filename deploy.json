@@ -1,6 +1,6 @@
 {
- "updated": "20 Oct 2026, 19:19 IST",
- "dashboard": "http://172.16.5.77:8099/",
+ "updated": "20 Oct 2026, 21:06 IST",
+ "dashboard": "http://172.16.5.183:8099/",
  "apps": [
   {
    "id": "tinkerbench",
@@ -97,10 +97,10 @@
    "id": "pi-deploy",
    "name": "This deployer",
    "branch": "rpi",
-   "state": "live",
+   "state": "deploying",
    "live": "af9547b",
    "live_since": "20 Oct 2026, 01:47 IST",
-   "latest": "af9547b",
+   "latest": "8796c66",
    "paused": false,
    "last": {
     "result": "live",
