@@ -22,16 +22,16 @@
    "id": "mech-bench",
    "name": "MechBench",
    "branch": "rpi",
-   "state": "deploying",
-   "live": "e8e0046",
-   "live_since": "21 Oct 2026, 14:31 IST",
+   "state": "live",
+   "live": "d3b83dd",
+   "live_since": "21 Oct 2026, 15:18 IST",
    "latest": "d3b83dd",
    "paused": false,
    "last": {
     "result": "live",
-    "commit": "e8e0046",
+    "commit": "d3b83dd",
     "stage": null,
-    "at": "21 Oct 2026, 14:31 IST"
+    "at": "21 Oct 2026, 15:18 IST"
    }
   },
   {
