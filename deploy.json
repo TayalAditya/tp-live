@@ -1,5 +1,5 @@
 {
- "updated": "21 Oct 2026, 10:45 IST",
+ "updated": "21 Oct 2026, 11:07 IST",
  "dashboard": "http://172.16.5.183:8099/",
  "apps": [
   {
@@ -22,10 +22,10 @@
    "id": "mech-bench",
    "name": "MechBench",
    "branch": "rpi",
-   "state": "live",
+   "state": "deploying",
    "live": "489d7d9",
    "live_since": "21 Oct 2026, 10:45 IST",
-   "latest": "489d7d9",
+   "latest": "c95977e",
    "paused": false,
    "last": {
     "result": "live",
