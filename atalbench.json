@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": "https://cult-dome-cost-poet.trycloudflare.com",
- "up": true,
- "since": "21 Oct 2026, 17:52 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../atl/"
 }
