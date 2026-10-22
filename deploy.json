@@ -1,5 +1,5 @@
 {
- "updated": "22 Oct 2026, 22:22 IST",
+ "updated": "22 Oct 2026, 22:23 IST",
  "dashboard": "http://172.16.5.224:8099/",
  "apps": [
   {
@@ -22,16 +22,16 @@
    "id": "mech-bench",
    "name": "MechBench",
    "branch": "rpi",
-   "state": "deploying",
-   "live": "d3b83dd",
-   "live_since": "21 Oct 2026, 15:18 IST",
+   "state": "live",
+   "live": "cb468b3",
+   "live_since": "22 Oct 2026, 22:23 IST",
    "latest": "cb468b3",
    "paused": false,
    "last": {
     "result": "live",
-    "commit": "d3b83dd",
+    "commit": "cb468b3",
     "stage": null,
-    "at": "21 Oct 2026, 15:18 IST"
+    "at": "22 Oct 2026, 22:23 IST"
    }
   },
   {
