@@ -124,7 +124,7 @@
    "id": "pi-deploy",
    "name": "This deployer",
    "branch": "rpi",
-   "state": "live",
+   "state": "deploying",
    "live": "f767361",
    "live_since": "25 Oct 2026, 01:09 IST",
    "latest": "d478da4",
