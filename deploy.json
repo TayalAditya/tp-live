@@ -1,5 +1,5 @@
 {
- "updated": "25 Oct 2026, 01:41 IST",
+ "updated": "25 Oct 2026, 01:43 IST",
  "dashboard": "http://172.16.5.146:8099/",
  "apps": [
   {
@@ -41,7 +41,7 @@
    "state": "live",
    "live": "6f3b2ed",
    "live_since": "25 Oct 2026, 01:34 IST",
-   "latest": "6f3b2ed",
+   "latest": "59465ae",
    "paused": false,
    "last": null
   },
@@ -97,16 +97,16 @@
    "id": "latex",
    "name": "IIT Mandi LaTeX (test)",
    "branch": "staging",
-   "state": "deploying",
+   "state": "failed",
    "live": null,
    "live_since": null,
    "latest": "f2c58eb",
    "paused": false,
    "last": {
-    "result": "interrupted",
-    "commit": "63283a8",
-    "stage": null,
-    "at": "25 Oct 2026, 01:40 IST"
+    "result": "failed",
+    "commit": "f2c58eb",
+    "stage": "prepare",
+    "at": "25 Oct 2026, 01:43 IST"
    }
   },
   {
@@ -127,7 +127,7 @@
    "state": "live",
    "live": "f767361",
    "live_since": "25 Oct 2026, 01:09 IST",
-   "latest": "f767361",
+   "latest": "d478da4",
    "paused": false,
    "last": {
     "result": "live",
