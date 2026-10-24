@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
- "since": null,
- "stage": "connecting",
+ "url": "https://dayton-filing-include-belief.trycloudflare.com",
+ "up": true,
+ "since": "24 Oct 2026, 12:27 IST",
+ "stage": "up",
  "error": null,
  "campus": "../atl/"
 }
