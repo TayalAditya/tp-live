@@ -1,5 +1,5 @@
 {
- "updated": "25 Oct 2026, 01:29 IST",
+ "updated": "25 Oct 2026, 01:40 IST",
  "dashboard": "http://172.16.5.146:8099/",
  "apps": [
   {
@@ -33,6 +33,17 @@
     "stage": null,
     "at": "22 Oct 2026, 22:23 IST"
    }
+  },
+  {
+   "id": "makerbench",
+   "name": "MakerBench",
+   "branch": "rpi",
+   "state": "live",
+   "live": "6f3b2ed",
+   "live_since": "25 Oct 2026, 01:34 IST",
+   "latest": null,
+   "paused": false,
+   "last": null
   },
   {
    "id": "dofa-sim",
@@ -86,12 +97,17 @@
    "id": "latex",
    "name": "IIT Mandi LaTeX (test)",
    "branch": "staging",
-   "state": "deploying",
+   "state": "failed",
    "live": null,
    "live_since": null,
-   "latest": "63283a8",
+   "latest": "f2c58eb",
    "paused": false,
-   "last": null
+   "last": {
+    "result": "interrupted",
+    "commit": "63283a8",
+    "stage": null,
+    "at": "25 Oct 2026, 01:40 IST"
+   }
   },
   {
    "id": "rasa",
