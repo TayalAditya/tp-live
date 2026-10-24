@@ -1,9 +1,9 @@
 {
  "name": "MakerBench",
- "url": "https://fabric-causes-ashley-interstate.trycloudflare.com",
- "up": true,
- "since": "25 Oct 2026, 01:40 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8093"
 }
