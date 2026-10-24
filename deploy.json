@@ -102,16 +102,16 @@
    "id": "latex",
    "name": "IIT Mandi LaTeX (test)",
    "branch": "staging",
-   "state": "deploying",
+   "state": "failed",
    "live": null,
    "live_since": null,
    "latest": "1c8c841",
    "paused": false,
    "last": {
     "result": "failed",
-    "commit": "b676874",
-    "stage": "error",
-    "at": "25 Oct 2026, 03:15 IST"
+    "commit": "1c8c841",
+    "stage": "prepare",
+    "at": "25 Oct 2026, 03:37 IST"
    }
   },
   {
