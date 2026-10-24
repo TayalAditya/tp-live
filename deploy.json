@@ -38,12 +38,17 @@
    "id": "makerbench",
    "name": "MakerBench",
    "branch": "rpi",
-   "state": "deploying",
+   "state": "failed",
    "live": "6f3b2ed",
    "live_since": "25 Oct 2026, 01:34 IST",
    "latest": "59465ae",
    "paused": false,
-   "last": null
+   "last": {
+    "result": "failed",
+    "commit": "shell-i",
+    "stage": "fetch",
+    "at": "25 Oct 2026, 01:43 IST"
+   }
   },
   {
    "id": "dofa-sim",
