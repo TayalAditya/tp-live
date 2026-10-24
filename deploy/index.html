@@ -20,7 +20,7 @@
   code { font: 12.5px ui-monospace, Consolas, monospace; }
   .s { font-weight: 600; display: inline-flex; align-items: center; gap: 6px; }
   .s::before { content: ""; width: 9px; height: 9px; border-radius: 2px; background: currentColor; }
-  .live { color: var(--live); } .deploying, .behind { color: var(--busy); } .failed { color: var(--bad); } .paused, .unknown { color: var(--idle); }
+  .live { color: var(--live); } .deploying, .behind { color: var(--busy); } .failed, .stopped { color: var(--bad); } .paused, .unknown { color: var(--idle); }
   .small { color: var(--muted); font-size: 12.5px; }
   @media (max-width: 560px) { .hide-s { display: none; } }
 </style>
@@ -39,7 +39,7 @@
 </main>
 <script>
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const words = { live: 'Live', deploying: 'Deploying', failed: 'Failed, previous version kept', behind: 'New commit waiting', paused: 'Paused', unknown: 'Unknown' };
+const words = { live: 'Live', deploying: 'Deploying', failed: 'Failed, previous version kept', behind: 'New commit waiting', paused: 'Paused', stopped: 'Stopped: card nearly full', unknown: 'Unknown' };
 async function load() {
   try {
     const r = await fetch('../deploy.json?t=' + Date.now(), { cache: 'no-store' });

@@ -97,16 +97,16 @@
    "id": "pi-deploy",
    "name": "This deployer",
    "branch": "rpi",
-   "state": "deploying",
-   "live": "8796c66",
-   "live_since": "20 Oct 2026, 21:06 IST",
+   "state": "live",
+   "live": "95981b1",
+   "live_since": "24 Oct 2026, 23:33 IST",
    "latest": "95981b1",
    "paused": false,
    "last": {
     "result": "live",
-    "commit": "8796c66",
+    "commit": "95981b1",
     "stage": null,
-    "at": "20 Oct 2026, 21:06 IST"
+    "at": "24 Oct 2026, 23:33 IST"
    }
   }
  ]
