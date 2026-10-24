@@ -83,6 +83,17 @@
    }
   },
   {
+   "id": "latex",
+   "name": "IIT Mandi LaTeX (test)",
+   "branch": "staging",
+   "state": "unknown",
+   "live": null,
+   "live_since": null,
+   "latest": null,
+   "paused": false,
+   "last": null
+  },
+  {
    "id": "rasa",
    "name": "RASA Lab website",
    "branch": "master",
