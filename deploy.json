@@ -1,6 +1,6 @@
 {
- "updated": "25 Oct 2026, 01:12 IST",
- "dashboard": null,
+ "updated": "25 Oct 2026, 01:29 IST",
+ "dashboard": "http://172.16.5.146:8099/",
  "apps": [
   {
    "id": "tinkerbench",
@@ -86,10 +86,10 @@
    "id": "latex",
    "name": "IIT Mandi LaTeX (test)",
    "branch": "staging",
-   "state": "unknown",
+   "state": "deploying",
    "live": null,
    "live_since": null,
-   "latest": "10516be",
+   "latest": "63283a8",
    "paused": false,
    "last": null
   },
