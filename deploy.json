@@ -1,5 +1,5 @@
 {
- "updated": "26 Oct 2026, 02:02 IST",
+ "updated": "26 Oct 2026, 02:03 IST",
  "dashboard": "http://172.16.5.66:8099/",
  "apps": [
   {
@@ -102,7 +102,7 @@
    "id": "latex",
    "name": "IIT Mandi LaTeX",
    "branch": "staging",
-   "state": "failed",
+   "state": "deploying",
    "live": null,
    "live_since": null,
    "latest": "1c8c841",
