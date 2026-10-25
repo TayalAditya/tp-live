@@ -1,9 +1,9 @@
 {
  "name": "MakerBench",
- "url": "https://latest-league-socks-slowly.trycloudflare.com",
- "up": true,
- "since": "25 Oct 2026, 11:43 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8093"
 }
