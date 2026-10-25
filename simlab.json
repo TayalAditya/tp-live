@@ -1,9 +1,9 @@
 {
  "name": "Simulation Lab",
- "url": "https://installations-savannah-val-lovely.trycloudflare.com",
- "up": true,
- "since": "25 Oct 2026, 10:49 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8090"
 }
