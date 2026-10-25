@@ -100,7 +100,7 @@
   },
   {
    "id": "latex",
-   "name": "IIT Mandi LaTeX (test)",
+   "name": "IIT Mandi LaTeX",
    "branch": "staging",
    "state": "failed",
    "live": null,
