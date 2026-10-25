@@ -1,9 +1,9 @@
 {
  "name": "IIT Mandi LaTeX",
- "url": "https://virtual-accompanied-kentucky-spending.trycloudflare.com",
- "up": true,
- "since": "26 Oct 2026, 01:19 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8095"
 }
