@@ -31,20 +31,31 @@
 /* This page lives at a fixed address. The lab Pi keeps a Cloudflare tunnel open and publishes
    where it is today in ../<this folder>.json; the page forwards there, carrying the query and the
    #hash (a shared project travels in the hash). ?gh goes to the app's admin page, /gh/. When the
-   tunnel is down or the Pi has stopped reporting, it offers the campus link instead, with the same hash. */
+   tunnel is down or the Pi has stopped reporting, it offers the campus link instead, with the same hash.
+   An app may ask this page to remember who uses it on this phone: #remember=<key> keeps the key, #forget drops
+   it, and every visit then carries it on as ?who=<key>. MakerBench does this so a student's work carries on
+   whatever address the lab has that day. */
 (function () {
   var page = location.pathname.replace(/\/+$/, '').split('/').pop();
   var $ = function (id) { return document.getElementById(id); };
   var bust = function (u) { return u + '?t=' + Date.now(); };
   var admin = /^\?gh\/?$/.test(location.search), path = admin ? '/gh/' : '/', qs = admin ? '' : location.search;
+  var hash = location.hash, who = null;
+  try {
+    var keep = /^#remember=([a-z0-9-]{3,64})$/.exec(hash);
+    if (keep) { localStorage.setItem('who:' + page, keep[1]); hash = ''; }
+    else if (hash === '#forget') { localStorage.removeItem('who:' + page); hash = ''; }
+    who = localStorage.getItem('who:' + page);
+  } catch (e) { }
+  if (who && !admin && !/[?&]who=/.test(qs)) qs += (qs ? '&' : '?') + 'who=' + encodeURIComponent(who);
   function get(u) { return fetch(bust(u), { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
   function show(info, quiet) {
     var name = (info && info.name) || 'The lab';
     document.title = name;
     $('title').textContent = name + ' is not reachable from outside the campus right now';
     $('note').textContent = quiet ? 'The lab Pi has not reported for a while, so it may be switched off or offline.' : 'The lab Pi is on, but its public link is down at the moment. It reconnects by itself, usually within a few minutes.';
-    if (info && info.campus) { $('campus').href = info.campus + qs + location.hash; $('campus').hidden = false; }
-    if (info && info.lastUrl) { $('anyway').href = info.lastUrl + path + qs + location.hash; $('anyway').hidden = false; }
+    if (info && info.campus) { $('campus').href = info.campus + qs + hash; $('campus').hidden = false; }
+    if (info && info.lastUrl) { $('anyway').href = info.lastUrl + path + qs + hash; $('anyway').hidden = false; }
     $('ways').hidden = false;
   }
   function go() {
@@ -52,7 +63,7 @@
       var info = r[0], services = r[1];
       var checked = services && services.checked ? Date.parse(String(services.checked).replace(' UTC', 'Z').replace(' ', 'T')) : NaN;
       var stale = !isNaN(checked) && Date.now() - checked > 45 * 60 * 1000;
-      if (info.up && info.url && !stale) { location.replace(info.url + path + qs + location.hash); return; }
+      if (info.up && info.url && !stale) { location.replace(info.url + path + qs + hash); return; }
       if (info.url) info.lastUrl = info.url;
       show(info, stale);
     }).catch(function () { show({ campus: page === 'atalbench' ? '../atl/' : null }, false); $('note').textContent = 'The address of the lab Pi could not be read. Check the internet connection and try again.'; });
