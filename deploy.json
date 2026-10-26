@@ -38,16 +38,16 @@
    "id": "makerbench",
    "name": "MakerBench",
    "branch": "rpi",
-   "state": "deploying",
-   "live": "e3a91a4",
-   "live_since": "26 Oct 2026, 16:33 IST",
+   "state": "live",
+   "live": "861529e",
+   "live_since": "26 Oct 2026, 19:48 IST",
    "latest": "861529e",
    "paused": false,
    "last": {
     "result": "live",
-    "commit": "e3a91a4",
+    "commit": "861529e",
     "stage": null,
-    "at": "26 Oct 2026, 16:33 IST"
+    "at": "26 Oct 2026, 19:48 IST"
    }
   },
   {
