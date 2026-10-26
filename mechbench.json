@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": "https://cemetery-assessment-trio-prototype.trycloudflare.com",
- "up": true,
- "since": "26 Oct 2026, 02:02 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8092"
 }
