@@ -1,5 +1,5 @@
 {
- "updated": "26 Oct 2026, 22:40 IST",
+ "updated": "26 Oct 2026, 22:41 IST",
  "dashboard": "http://172.16.5.216:8099/",
  "apps": [
   {
@@ -38,16 +38,16 @@
    "id": "makerbench",
    "name": "MakerBench",
    "branch": "rpi",
-   "state": "deploying",
-   "live": "861529e",
-   "live_since": "26 Oct 2026, 19:48 IST",
+   "state": "live",
+   "live": "61fb73d",
+   "live_since": "26 Oct 2026, 22:41 IST",
    "latest": "61fb73d",
    "paused": false,
    "last": {
     "result": "live",
-    "commit": "861529e",
+    "commit": "61fb73d",
     "stage": null,
-    "at": "26 Oct 2026, 19:48 IST"
+    "at": "26 Oct 2026, 22:41 IST"
    }
   },
   {
