@@ -54,16 +54,16 @@
    "id": "dofa-sim",
    "name": "Simulation Lab",
    "branch": "rpi",
-   "state": "deploying",
+   "state": "failed",
    "live": "8ec25e6",
    "live_since": "09 Oct 2026, 00:43 IST",
    "latest": "b3fd30e",
    "paused": false,
    "last": {
-    "result": "live",
-    "commit": "8ec25e6",
-    "stage": null,
-    "at": "09 Oct 2026, 00:43 IST"
+    "result": "failed",
+    "commit": "b3fd30e",
+    "stage": "build",
+    "at": "26 Oct 2026, 12:38 IST"
    }
   },
   {
