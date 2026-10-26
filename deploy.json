@@ -1,6 +1,6 @@
 {
- "updated": "26 Oct 2026, 02:30 IST",
- "dashboard": "http://172.16.5.66:8099/",
+ "updated": "26 Oct 2026, 12:38 IST",
+ "dashboard": "http://172.16.5.216:8099/",
  "apps": [
   {
    "id": "tinkerbench",
@@ -54,10 +54,10 @@
    "id": "dofa-sim",
    "name": "Simulation Lab",
    "branch": "rpi",
-   "state": "live",
+   "state": "deploying",
    "live": "8ec25e6",
    "live_since": "09 Oct 2026, 00:43 IST",
-   "latest": "8ec25e6",
+   "latest": "b3fd30e",
    "paused": false,
    "last": {
     "result": "live",
