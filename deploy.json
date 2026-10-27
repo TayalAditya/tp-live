@@ -1,6 +1,6 @@
 {
- "updated": "26 Oct 2026, 23:30 IST",
- "dashboard": "http://172.16.5.216:8099/",
+ "updated": "27 Oct 2026, 07:39 IST",
+ "dashboard": "http://172.16.5.170:8099/",
  "apps": [
   {
    "id": "tinkerbench",
@@ -38,10 +38,10 @@
    "id": "makerbench",
    "name": "MakerBench",
    "branch": "rpi",
-   "state": "live",
+   "state": "deploying",
    "live": "8ce7349",
    "live_since": "26 Oct 2026, 23:30 IST",
-   "latest": "8ce7349",
+   "latest": "fca182b",
    "paused": false,
    "last": {
     "result": "live",
