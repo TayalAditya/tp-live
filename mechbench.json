@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": "https://screening-appreciation-heads-alliance.trycloudflare.com",
- "up": true,
- "since": "27 Oct 2026, 12:07 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8092"
 }
