@@ -1,9 +1,9 @@
 {
  "name": "Simulation Lab",
- "url": null,
- "up": false,
- "since": null,
- "stage": "connecting",
+ "url": "https://armed-voting-achievements-despite.trycloudflare.com",
+ "up": true,
+ "since": "27 Oct 2026, 19:03 IST",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8090"
 }
