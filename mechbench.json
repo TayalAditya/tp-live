@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": "https://appreciated-tracker-sales-conditioning.trycloudflare.com",
- "up": true,
- "since": "26 Oct 2026, 23:03 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8092"
 }
