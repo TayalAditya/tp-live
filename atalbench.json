@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
- "since": null,
- "stage": "connecting",
+ "url": "https://oscar-congressional-controlling-knock.trycloudflare.com",
+ "up": true,
+ "since": "29 Oct 2026, 00:46 IST",
+ "stage": "up",
  "error": null,
  "campus": "../atl/"
 }
