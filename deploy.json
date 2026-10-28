@@ -1,5 +1,5 @@
 {
- "updated": "28 Oct 2026, 22:09 IST",
+ "updated": "28 Oct 2026, 22:59 IST",
  "dashboard": "http://172.16.5.74:8099/",
  "apps": [
   {
@@ -102,7 +102,7 @@
    "id": "latex",
    "name": "IIT Mandi LaTeX",
    "branch": "staging",
-   "state": "deploying",
+   "state": "failed",
    "live": "1c8c841",
    "live_since": "26 Oct 2026, 02:30 IST",
    "latest": "417ab42",
@@ -110,8 +110,8 @@
    "last": {
     "result": "failed",
     "commit": "417ab42",
-    "stage": "pull",
-    "at": "28 Oct 2026, 03:05 IST"
+    "stage": "verify",
+    "at": "28 Oct 2026, 22:59 IST"
    }
   },
   {
