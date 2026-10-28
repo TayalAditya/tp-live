@@ -1,9 +1,9 @@
 {
  "name": "Simulation Lab",
- "url": null,
- "up": false,
- "since": null,
- "stage": "connecting",
+ "url": "https://guide-governor-upgrade-keyboard.trycloudflare.com",
+ "up": true,
+ "since": "29 Oct 2026, 00:44 IST",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8090"
 }
