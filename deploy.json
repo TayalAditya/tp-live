@@ -1,6 +1,6 @@
 {
- "updated": "28 Oct 2026, 03:05 IST",
- "dashboard": "http://172.16.5.56:8099/",
+ "updated": "28 Oct 2026, 22:09 IST",
+ "dashboard": "http://172.16.5.74:8099/",
  "apps": [
   {
    "id": "tinkerbench",
@@ -102,7 +102,7 @@
    "id": "latex",
    "name": "IIT Mandi LaTeX",
    "branch": "staging",
-   "state": "failed",
+   "state": "deploying",
    "live": "1c8c841",
    "live_since": "26 Oct 2026, 02:30 IST",
    "latest": "417ab42",
@@ -130,15 +130,15 @@
    "name": "This deployer",
    "branch": "rpi",
    "state": "live",
-   "live": "0bbb98c",
-   "live_since": "26 Oct 2026, 01:19 IST",
-   "latest": "0bbb98c",
+   "live": "eaf45b4",
+   "live_since": "28 Oct 2026, 20:55 IST",
+   "latest": "eaf45b4",
    "paused": false,
    "last": {
     "result": "live",
-    "commit": "0bbb98c",
+    "commit": "eaf45b4",
     "stage": null,
-    "at": "26 Oct 2026, 01:19 IST"
+    "at": "28 Oct 2026, 20:55 IST"
    }
   }
  ]
