@@ -1,9 +1,9 @@
 {
  "name": "Simulation Lab",
- "url": "https://loan-eyed-conversations-attach.trycloudflare.com",
- "up": true,
- "since": "28 Oct 2026, 21:38 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8090"
 }
