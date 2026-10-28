@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
- "since": null,
- "stage": "connecting",
+ "url": "https://newton-probability-colon-stripes.trycloudflare.com",
+ "up": true,
+ "since": "29 Oct 2026, 00:19 IST",
+ "stage": "up",
  "error": null,
  "campus": "../atl/"
 }
