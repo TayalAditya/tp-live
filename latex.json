@@ -1,9 +1,8 @@
 {
  "name": "IIT Mandi LaTeX",
- "url": "https://pad-ent-supply-contamination.trycloudflare.com",
- "up": true,
- "since": "29 Oct 2026, 19:52 IST",
- "stage": "up",
- "error": null,
+ "url": null,
+ "up": false,
+ "stage": "moved to server",
+ "error": "Pi gateway retired. Public access awaits a direct server tunnel.",
  "campus": "http://172.19.17.79:8080"
 }
