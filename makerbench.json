@@ -1,9 +1,9 @@
 {
  "name": "MakerBench",
- "url": null,
- "up": false,
- "since": null,
- "stage": "connecting",
+ "url": "https://glory-vitamin-treating-majority.trycloudflare.com",
+ "up": true,
+ "since": "29 Oct 2026, 19:59 IST",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8093"
 }
