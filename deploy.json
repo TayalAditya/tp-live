@@ -99,22 +99,6 @@
    }
   },
   {
-   "id": "latex",
-   "name": "IIT Mandi LaTeX",
-   "branch": "staging",
-   "state": "behind",
-   "live": "b1fd7d1",
-   "live_since": "29 Oct 2026, 17:30 IST",
-   "latest": "f4e4c69",
-   "paused": false,
-   "last": {
-    "result": "live",
-    "commit": "f4e4c69",
-    "stage": null,
-    "at": "29 Oct 2026, 14:32 IST"
-   }
-  },
-  {
    "id": "rasa",
    "name": "RASA Lab website",
    "branch": "master",
