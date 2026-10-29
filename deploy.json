@@ -1,5 +1,5 @@
 {
- "updated": "29 Oct 2026, 19:52 IST",
+ "updated": "29 Oct 2026, 19:59 IST",
  "dashboard": "http://172.16.5.74:8099/",
  "apps": [
   {
@@ -129,10 +129,10 @@
    "id": "pi-deploy",
    "name": "This deployer",
    "branch": "rpi",
-   "state": "live",
+   "state": "deploying",
    "live": "3faf681",
    "live_since": "29 Oct 2026, 17:30 IST",
-   "latest": "3faf681",
+   "latest": "eb0c3d9",
    "paused": false,
    "last": {
     "result": "live",
