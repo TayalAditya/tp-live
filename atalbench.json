@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": "https://workers-exists-deluxe-cement.trycloudflare.com",
- "up": true,
- "since": "29 Oct 2026, 10:38 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../atl/"
 }
