@@ -1,9 +1,9 @@
 {
  "name": "IIT Mandi LaTeX",
- "url": "https://gone-aka-litigation-farming.trycloudflare.com",
- "up": true,
- "since": "29 Oct 2026, 10:38 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8095"
 }
