@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": "https://individual-pics-vector-tissue.trycloudflare.com",
- "up": true,
- "since": "29 Oct 2026, 17:30 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../atl/"
 }
