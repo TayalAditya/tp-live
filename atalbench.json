@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": "https://memory-adjust-establishing-melissa.trycloudflare.com",
- "up": true,
- "since": "30 Oct 2026, 16:02 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../atl/"
 }
