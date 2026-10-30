@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": null,
- "stage": "down",
+ "stage": "connecting",
  "error": "cloudflared stopped (exit 1)",
  "campus": "../?port=8092"
 }
