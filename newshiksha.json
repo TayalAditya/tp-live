@@ -1,0 +1,9 @@
+{
+ "name": "News Shiksha",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
+ "error": null,
+ "campus": "../?port=8096"
+}
