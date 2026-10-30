@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": null,
- "up": false,
- "since": "30 Oct 2026, 10:18 IST",
- "stage": "connecting",
- "error": "the public address stopped answering; last error: 2026-10-30T04:48:23Z ERR failed to serve incoming request error=\"Error shutting down control stream: context canceled\"",
+ "url": "https://competitive-makeup-hans-nil.trycloudflare.com",
+ "up": true,
+ "since": "30 Oct 2026, 10:19 IST",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8092"
 }
