@@ -1,9 +1,9 @@
 {
  "name": "MakerBench",
- "url": null,
- "up": false,
+ "url": "https://managing-eyed-singing-magazine.trycloudflare.com",
+ "up": true,
  "since": "30 Oct 2026, 13:30 IST",
- "stage": "connecting",
- "error": "the public address stopped answering; last error: 2026-10-30T08:00:09Z ERR failed to serve incoming request error=\"Error shutting down control stream: context deadline exceeded\"",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8093"
 }
