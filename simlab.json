@@ -1,9 +1,9 @@
 {
  "name": "Simulation Lab",
- "url": "https://interpretation-contacting-small-ages.trycloudflare.com",
- "up": true,
- "since": "29 Oct 2026, 19:59 IST",
- "stage": "up",
- "error": null,
+ "url": null,
+ "up": false,
+ "since": "30 Oct 2026, 10:18 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-10-30T04:48:28Z ERR failed to serve incoming request error=\"Error shutting down control stream: context deadline exceeded\"",
  "campus": "../?port=8090"
 }
