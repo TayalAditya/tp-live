@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": "30 Oct 2026, 10:18 IST",
- "stage": "down",
+ "stage": "connecting",
  "error": "the public address stopped answering; last error: 2026-10-30T04:48:28Z ERR failed to serve incoming request error=\"Error shutting down control stream: context deadline exceeded\"",
  "campus": "../?port=8090"
 }
