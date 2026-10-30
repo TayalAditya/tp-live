@@ -1,9 +1,9 @@
 {
  "name": "MakerBench",
- "url": null,
- "up": false,
- "since": null,
- "stage": "connecting",
+ "url": "https://precipitation-walks-pal-prague.trycloudflare.com",
+ "up": true,
+ "since": "30 Oct 2026, 18:34 IST",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8093"
 }
