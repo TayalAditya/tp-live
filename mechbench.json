@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": null,
- "up": false,
- "since": null,
- "stage": "connecting",
- "error": "cloudflared stopped (exit 1)",
+ "url": "https://surf-mart-explicitly-rainbow.trycloudflare.com",
+ "up": true,
+ "since": "30 Oct 2026, 16:02 IST",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8092"
 }
