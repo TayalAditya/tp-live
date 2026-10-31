@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
- "since": null,
- "stage": "connecting",
+ "url": "https://argument-depot-assets-transcripts.trycloudflare.com",
+ "up": true,
+ "since": "31 Oct 2026, 16:54 IST",
+ "stage": "up",
  "error": null,
  "campus": "../atl/"
 }
