@@ -1,9 +1,9 @@
 {
  "name": "News Shiksha",
- "url": "https://initial-petition-enormous-lambda.trycloudflare.com",
- "up": true,
- "since": "31 Oct 2026, 02:34 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8096"
 }
