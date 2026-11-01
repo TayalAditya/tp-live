@@ -86,16 +86,16 @@
    "id": "ncert-sim",
    "name": "Digital NCERT",
    "branch": "rpi",
-   "state": "deploying",
-   "live": "5f66939",
-   "live_since": "09 Oct 2026, 00:42 IST",
+   "state": "live",
+   "live": "af30ccc",
+   "live_since": "01 Nov 2026, 14:33 IST",
    "latest": "af30ccc",
    "paused": false,
    "last": {
     "result": "live",
-    "commit": "5f66939",
+    "commit": "af30ccc",
     "stage": null,
-    "at": "09 Oct 2026, 00:42 IST"
+    "at": "01 Nov 2026, 14:33 IST"
    }
   },
   {
