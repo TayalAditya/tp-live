@@ -1,9 +1,9 @@
 {
  "name": "News Shiksha",
- "url": "https://colon-cattle-align-every.trycloudflare.com",
- "up": true,
- "since": "31 Oct 2026, 16:54 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8096"
 }
