@@ -1,5 +1,5 @@
 {
- "updated": "02 Nov 2026, 00:24 IST",
+ "updated": "02 Nov 2026, 00:25 IST",
  "dashboard": "http://172.16.5.218:8099/",
  "apps": [
   {
@@ -86,16 +86,16 @@
    "id": "ncert-sim",
    "name": "Digital NCERT",
    "branch": "rpi",
-   "state": "deploying",
-   "live": "72c7d18",
-   "live_since": "01 Nov 2026, 20:03 IST",
+   "state": "live",
+   "live": "12e6b26",
+   "live_since": "02 Nov 2026, 00:25 IST",
    "latest": "12e6b26",
    "paused": false,
    "last": {
     "result": "live",
-    "commit": "72c7d18",
+    "commit": "12e6b26",
     "stage": null,
-    "at": "01 Nov 2026, 20:03 IST"
+    "at": "02 Nov 2026, 00:25 IST"
    }
   },
   {
