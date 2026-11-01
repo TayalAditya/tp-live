@@ -54,16 +54,16 @@
    "id": "realworld-lab",
    "name": "Real World Lab",
    "branch": "rpi",
-   "state": "deploying",
-   "live": "470c9f6",
-   "live_since": "01 Nov 2026, 13:53 IST",
+   "state": "live",
+   "live": "75c62d5",
+   "live_since": "01 Nov 2026, 15:05 IST",
    "latest": "75c62d5",
    "paused": false,
    "last": {
     "result": "live",
-    "commit": "470c9f6",
+    "commit": "75c62d5",
     "stage": null,
-    "at": "01 Nov 2026, 13:53 IST"
+    "at": "01 Nov 2026, 15:05 IST"
    }
   },
   {
