@@ -1,5 +1,5 @@
 {
- "updated": "01 Nov 2026, 19:38 IST",
+ "updated": "01 Nov 2026, 19:39 IST",
  "dashboard": "http://172.16.5.218:8099/",
  "apps": [
   {
@@ -54,16 +54,16 @@
    "id": "realworld-lab",
    "name": "Real World Lab",
    "branch": "rpi",
-   "state": "deploying",
-   "live": "75c62d5",
-   "live_since": "01 Nov 2026, 15:05 IST",
+   "state": "live",
+   "live": "4892588",
+   "live_since": "01 Nov 2026, 19:39 IST",
    "latest": "4892588",
    "paused": false,
    "last": {
     "result": "live",
-    "commit": "75c62d5",
+    "commit": "4892588",
     "stage": null,
-    "at": "01 Nov 2026, 15:05 IST"
+    "at": "01 Nov 2026, 19:39 IST"
    }
   },
   {
