@@ -1,9 +1,9 @@
 {
  "name": "News Shiksha",
- "url": "https://charitable-spring-compiled-assembled.trycloudflare.com",
- "up": true,
- "since": "01 Nov 2026, 11:59 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8096"
 }
