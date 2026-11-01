@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": "https://receive-thats-wrap-subcommittee.trycloudflare.com",
- "up": true,
- "since": "01 Nov 2026, 13:45 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../atl/"
 }
