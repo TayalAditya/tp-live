@@ -1,5 +1,5 @@
 {
- "updated": "01 Nov 2026, 19:51 IST",
+ "updated": "01 Nov 2026, 19:53 IST",
  "dashboard": "http://172.16.5.218:8099/",
  "apps": [
   {
@@ -86,10 +86,10 @@
    "id": "ncert-sim",
    "name": "Digital NCERT",
    "branch": "rpi",
-   "state": "live",
+   "state": "deploying",
    "live": "60dc74f",
    "live_since": "01 Nov 2026, 17:57 IST",
-   "latest": "60dc74f",
+   "latest": "4a479f1",
    "paused": false,
    "last": {
     "result": "live",
