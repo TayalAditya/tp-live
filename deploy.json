@@ -84,7 +84,7 @@
   },
   {
    "id": "ncert-sim",
-   "name": "NCERT practicals",
+   "name": "Digital NCERT",
    "branch": "rpi",
    "state": "live",
    "live": "5f66939",
