@@ -1,5 +1,5 @@
 {
- "updated": "01 Nov 2026, 19:39 IST",
+ "updated": "01 Nov 2026, 19:51 IST",
  "dashboard": "http://172.16.5.218:8099/",
  "apps": [
   {
@@ -38,10 +38,10 @@
    "id": "makerbench",
    "name": "MakerBench",
    "branch": "rpi",
-   "state": "live",
+   "state": "deploying",
    "live": "e87ed06",
    "live_since": "01 Nov 2026, 18:16 IST",
-   "latest": "e87ed06",
+   "latest": "8bdc859",
    "paused": false,
    "last": {
     "result": "live",
