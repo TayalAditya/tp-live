@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
- "since": null,
- "stage": "connecting",
+ "url": "https://camel-cuts-factors-pix.trycloudflare.com",
+ "up": true,
+ "since": "01 Nov 2026, 11:59 IST",
+ "stage": "up",
  "error": null,
  "campus": "../atl/"
 }
