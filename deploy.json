@@ -54,12 +54,17 @@
    "id": "realworld-lab",
    "name": "Real World Lab",
    "branch": "rpi",
-   "state": "deploying",
-   "live": null,
-   "live_since": null,
+   "state": "live",
+   "live": "fe5bb0a",
+   "live_since": "01 Nov 2026, 13:46 IST",
    "latest": "fe5bb0a",
    "paused": false,
-   "last": null
+   "last": {
+    "result": "live",
+    "commit": "fe5bb0a",
+    "stage": null,
+    "at": "01 Nov 2026, 13:46 IST"
+   }
   },
   {
    "id": "dofa-sim",
