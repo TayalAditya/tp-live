@@ -1,5 +1,5 @@
 {
- "updated": "01 Nov 2026, 13:45 IST",
+ "updated": "01 Nov 2026, 13:46 IST",
  "dashboard": "http://172.16.5.218:8099/",
  "apps": [
   {
@@ -54,10 +54,10 @@
    "id": "realworld-lab",
    "name": "Real World Lab",
    "branch": "rpi",
-   "state": "unknown",
+   "state": "deploying",
    "live": null,
    "live_since": null,
-   "latest": null,
+   "latest": "fe5bb0a",
    "paused": false,
    "last": null
   },
