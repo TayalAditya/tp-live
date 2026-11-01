@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": null,
- "up": false,
- "since": null,
- "stage": "connecting",
+ "url": "https://forums-cube-cooperation-flight.trycloudflare.com",
+ "up": true,
+ "since": "01 Nov 2026, 11:59 IST",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8092"
 }
