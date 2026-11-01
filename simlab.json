@@ -1,9 +1,9 @@
 {
  "name": "Digital NCERT",
- "url": "https://fax-dom-veterans-colored.trycloudflare.com",
- "up": true,
- "since": "02 Nov 2026, 01:25 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8091"
 }
