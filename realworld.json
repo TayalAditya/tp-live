@@ -1,9 +1,9 @@
 {
  "name": "Real World Lab",
- "url": null,
- "up": false,
+ "url": "https://variety-gtk-them-buf.trycloudflare.com",
+ "up": true,
  "since": "02 Nov 2026, 01:38 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8094"
 }
