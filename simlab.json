@@ -1,9 +1,9 @@
 {
  "name": "Digital NCERT",
- "url": null,
- "up": false,
+ "url": "https://capabilities-charlotte-bag-comfort.trycloudflare.com",
+ "up": true,
  "since": "03 Nov 2026, 01:11 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8091"
 }
