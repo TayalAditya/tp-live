@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
+ "url": "https://jelsoft-alerts-rely-baking.trycloudflare.com",
+ "up": true,
  "since": "02 Nov 2026, 12:51 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../atl/"
 }
