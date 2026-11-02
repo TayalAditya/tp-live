@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
+ "url": "https://mineral-website-drive-convenient.trycloudflare.com",
+ "up": true,
  "since": "02 Nov 2026, 15:47 IST",
- "stage": "reconnecting",
- "error": "the public address did not answer",
+ "stage": "up",
+ "error": null,
  "campus": "../atl/"
 }
