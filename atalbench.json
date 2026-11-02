@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
+ "url": "https://seminars-auctions-dubai-amenities.trycloudflare.com",
+ "up": true,
  "since": "02 Nov 2026, 15:45 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../atl/"
 }
