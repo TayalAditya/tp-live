@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": "https://alike-bruce-wondering-ecology.trycloudflare.com",
- "up": true,
- "since": "02 Nov 2026, 22:23 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8092"
 }
