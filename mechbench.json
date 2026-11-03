@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": "https://files-cave-have-increasing.trycloudflare.com",
- "up": true,
- "since": "03 Nov 2026, 01:11 IST",
- "stage": "up",
- "error": null,
+ "url": null,
+ "up": false,
+ "since": "03 Nov 2026, 10:38 IST",
+ "stage": "reconnecting",
+ "error": "the public address did not answer",
  "campus": "../?port=8092"
 }
