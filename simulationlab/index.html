@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulation Lab | Physics, chemistry and biology</title><link rel="canonical" href="https://newshiksha.com/SimulationLab/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="NewShiksha">
+<meta property="og:title" content="Simulation Lab | Physics, chemistry and biology"><meta property="og:url" content="https://newshiksha.com/SimulationLab/">
+<meta property="og:image" content="https://newshiksha.com/SimulationLab/preview.jpg"><meta name="twitter:card" content="summary_large_image">
+</head><body><main><h1>Simulation Lab | Physics, chemistry and biology</h1><p>This workspace has moved.</p>
+<p><a id="destination" href="https://newshiksha.com/SimulationLab/">Open the workspace on NewShiksha</a></p></main>
+<script>
+(() => {
+  let target = new URL("https://newshiksha.com/SimulationLab/");
+  target.search = location.search;
+  target.hash = location.hash;
+  if (false) {
+    const ports = {'8080':'ATaLbench/', '8090':'SimulationLab/', '8091':'DigitalNCERT/', '8092':'MechBench/', '8093':'MakerBench/', '8094':'RealWorldLab/', '8096':''};
+    const port = target.searchParams.get('port');
+    if (port && Object.hasOwn(ports, port)) { const query = target.searchParams; query.delete('port'); target = new URL("https://newshiksha.com/" + ports[port]); target.search = query.toString(); target.hash = location.hash; }
+    else if (port && /^\d{1,5}$/.test(port) && +port > 0 && +port <= 65535) { target.protocol = 'http:'; target.hostname = '172.16.5.218'; target.port = port; target.searchParams.delete('port'); }
+    target.searchParams.delete('stay');
+  }
+  if (false) {
+    try {
+      const remembered = /^#remember=([a-z0-9-]{3,64})$/.exec(location.hash);
+      if (remembered) { localStorage.setItem('who:makerbench', remembered[1]); target.hash = ''; }
+      if (location.hash === '#forget') { localStorage.removeItem('who:makerbench'); target.hash = ''; }
+      const who = localStorage.getItem('who:makerbench');
+      if (/^[a-z0-9-]{3,64}$/.test(who || '') && !target.searchParams.has('who')) target.searchParams.set('who', who);
+    } catch { /* Storage may be disabled; the original shared link still works. */ }
+  }
+  if (target.pathname === '/ATaLbench/' && /^\?gh\/?$/.test(location.search)) { target.pathname += 'gh/'; target.search = ''; }
+  document.getElementById('destination').href = target.href;
+  location.replace(target.href);
+})();
+</script></body></html>

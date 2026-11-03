@@ -1,46 +1,39 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex">
-<noscript><meta http-equiv="refresh" content="0; url=http://172.22.100.12:8119/"></noscript>
-<title>TestPlatform, IIT Mandi</title>
-<style>
-  body { margin: 0; padding: 2rem 1.5rem; font: 16px/1.5 "IBM Plex Sans", system-ui, sans-serif; color: #1f2937; background: #f7f7f5; }
-  main { max-width: 36rem; margin: 0 auto; }
-  h1 { font-size: 1.25rem; margin: 0 0 0.5rem; }
-  p { margin: 0.5rem 0; }
-  a { color: #0b3d91; }
-  code { font: 15px/1.4 "IBM Plex Mono", ui-monospace, monospace; }
-  small { color: #6b7280; }
-</style>
-</head>
-<body>
-<main>
-  <h1>TestPlatform, IIT Mandi</h1>
-  <p>Taking you to <a id="target" href="http://172.22.100.12:8119/">http://172.22.100.12:8119/</a>.</p>
-  <p>TestPlatform moved off the Pi to the institute server on 7 October 2026. Its address is <code>172.22.100.12:8119</code>.</p>
-  <p><small>The platform runs on the institute network, so the link works from the campus WiFi only, and a change of address takes up to ten minutes to reach this page. Add <code>?stay</code> to read the address without being redirected. <a href="https://tayaladitya.github.io/tp/">Every portal on this Pi</a>.</small></p>
-</main>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NewShiksha workspace</title><link rel="canonical" href="https://newshiksha.com/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="NewShiksha">
+<meta property="og:title" content="NewShiksha workspace"><meta property="og:url" content="https://newshiksha.com/">
+<meta property="og:image" content="https://newshiksha.com/preview-newshiksha-v3.jpg"><meta name="twitter:card" content="summary_large_image">
+</head><body><main><h1>NewShiksha workspace</h1><p>This workspace has moved.</p>
+<p><a id="destination" href="https://newshiksha.com/">Open the workspace on NewShiksha</a></p></main>
 <script>
-(function () {
-  var q = new URLSearchParams(location.search);
-  var host = '172.22.100.12', port = '8119', path = '@request', pi = '172.16.5.218';
-  if (/^[0-9]{1,5}$/.test(q.get('port') || '')) { host = pi; port = q.get('port'); }
-  if (path === '@request') {
-    path = location.pathname;
-    if (path.indexOf('/tp-live') === 0) path = path.slice('/tp-live'.length);
-    if (path === '' || path.charAt(0) !== '/') path = '/' + path;
+(() => {
+  let target = new URL("https://newshiksha.com/");
+  const routes = {"atalbench": "ATaLbench/", "atl": "ATaLbench/", "makerbench": "MakerBench/", "mechbench": "MechBench/", "simlab": "DigitalNCERT/", "ncert": "DigitalNCERT/", "sim": "SimulationLab/", "simulationlab": "SimulationLab/", "realworld": "RealWorldLab/", "humanlab": "RealWorldLab/", "newshiksha": ""};
+  const parts = location.pathname.replace(/^\/tp-live(?:\/|$)/, '').split('/').filter(Boolean);
+  const first = parts.shift() || '';
+  if (Object.hasOwn(routes, first)) target.pathname = '/' + routes[first] + parts.join('/');
+  else { target = new URL('https://newshiksha.iitmandi.ac.in/'); target.pathname = '/' + [first, ...parts].filter(Boolean).join('/'); }
+  target.search = location.search;
+  target.hash = location.hash;
+  if (false) {
+    const ports = {'8080':'ATaLbench/', '8090':'SimulationLab/', '8091':'DigitalNCERT/', '8092':'MechBench/', '8093':'MakerBench/', '8094':'RealWorldLab/', '8096':''};
+    const port = target.searchParams.get('port');
+    if (port && Object.hasOwn(ports, port)) { const query = target.searchParams; query.delete('port'); target = new URL("https://newshiksha.com/" + ports[port]); target.search = query.toString(); target.hash = location.hash; }
+    else if (port && /^\d{1,5}$/.test(port) && +port > 0 && +port <= 65535) { target.protocol = 'http:'; target.hostname = '172.16.5.218'; target.port = port; target.searchParams.delete('port'); }
+    target.searchParams.delete('stay');
   }
-  var stay = q.has('stay');
-  q.delete('port'); q.delete('stay');
-  var qs = q.toString();
-  var target = 'http://' + host + (port === '80' ? '' : ':' + port) + path + (qs ? '?' + qs : '') + location.hash;
-  var a = document.getElementById('target');
-  a.href = target; a.textContent = target;
-  if (!stay) location.replace(target);
+  if (false) {
+    try {
+      const remembered = /^#remember=([a-z0-9-]{3,64})$/.exec(location.hash);
+      if (remembered) { localStorage.setItem('who:makerbench', remembered[1]); target.hash = ''; }
+      if (location.hash === '#forget') { localStorage.removeItem('who:makerbench'); target.hash = ''; }
+      const who = localStorage.getItem('who:makerbench');
+      if (/^[a-z0-9-]{3,64}$/.test(who || '') && !target.searchParams.has('who')) target.searchParams.set('who', who);
+    } catch { /* Storage may be disabled; the original shared link still works. */ }
+  }
+  if (target.pathname === '/ATaLbench/' && /^\?gh\/?$/.test(location.search)) { target.pathname += 'gh/'; target.search = ''; }
+  document.getElementById('destination').href = target.href;
+  location.replace(target.href);
 })();
-</script>
-</body>
-</html>
+</script></body></html>

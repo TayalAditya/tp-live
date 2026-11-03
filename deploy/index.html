@@ -42,7 +42,7 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '
 const words = { live: 'Live', deploying: 'Deploying', failed: 'Failed, previous version kept', behind: 'New commit waiting', paused: 'Paused', stopped: 'Stopped: card nearly full', unknown: 'Unknown' };
 async function load() {
   try {
-    const r = await fetch('../deploy.json?t=' + Date.now(), { cache: 'no-store' });
+    const r = await fetch('https://raw.githubusercontent.com/TayalAditya/tp-live/main/deploy.json?t=' + Date.now(), { cache: 'no-store' });
     const d = await r.json();
     const dash = d.dashboard ? ` Dashboard on the campus network: <a href="${esc(d.dashboard)}">${esc(d.dashboard)}</a>` : '';
     document.getElementById('meta').innerHTML = `Updated ${esc(d.updated)}.${dash}`;
