@@ -4,6 +4,6 @@
  "up": false,
  "since": "03 Nov 2026, 21:27 IST",
  "stage": "reconnecting",
- "error": "the public address did not answer",
+ "error": "public check returned HTTP 530",
  "campus": "../?port=8092"
 }
