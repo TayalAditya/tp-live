@@ -1,9 +1,9 @@
 {
  "name": "NewShiksha",
- "url": null,
- "up": false,
+ "url": "https://makers-unix-weblogs-brands.trycloudflare.com",
+ "up": true,
  "since": "03 Nov 2026, 21:28 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8096"
 }
