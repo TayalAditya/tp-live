@@ -1,9 +1,9 @@
 {
  "name": "Digital NCERT",
- "url": null,
- "up": false,
- "since": "04 Nov 2026, 02:32 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "url": "https://graphical-gentle-contemporary-did.trycloudflare.com",
+ "up": true,
+ "since": "04 Nov 2026, 02:34 IST",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8091"
 }
