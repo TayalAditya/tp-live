@@ -1,9 +1,9 @@
 {
  "name": "NewShiksha",
- "url": null,
- "up": false,
+ "url": "https://sophisticated-anyway-dts-lot.trycloudflare.com",
+ "up": true,
  "since": "03 Nov 2026, 11:51 IST",
- "stage": "reconnecting",
- "error": "the public address did not answer",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8096"
 }
