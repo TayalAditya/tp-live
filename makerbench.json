@@ -1,9 +1,9 @@
 {
  "name": "MakerBench",
- "url": "https://enquiry-market-battle-suspected.trycloudflare.com",
- "up": true,
- "since": "03 Nov 2026, 19:51 IST",
- "stage": "up",
- "error": null,
+ "url": null,
+ "up": false,
+ "since": "03 Nov 2026, 21:27 IST",
+ "stage": "reconnecting",
+ "error": "public check returned HTTP 530",
  "campus": "../?port=8093"
 }
