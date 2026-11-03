@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": "03 Nov 2026, 21:27 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-03T15:57:50Z ERR no more connections active and exiting",
  "campus": "../atl/"
 }
