@@ -1,9 +1,9 @@
 {
  "name": "Real World Lab",
- "url": null,
- "up": false,
- "since": "04 Nov 2026, 02:32 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "url": "https://borders-edit-trinity-collectibles.trycloudflare.com",
+ "up": true,
+ "since": "04 Nov 2026, 02:33 IST",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8094"
 }
