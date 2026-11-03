@@ -1,9 +1,9 @@
 {
  "name": "NewShiksha",
- "url": null,
- "up": false,
- "since": "04 Nov 2026, 02:32 IST",
- "stage": "reconnecting",
- "error": "the public address did not answer",
+ "url": "https://cohen-comfortable-petite-dental.trycloudflare.com",
+ "up": true,
+ "since": "04 Nov 2026, 02:33 IST",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8096"
 }
