@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
+ "url": "https://documents-lotus-animals-advisor.trycloudflare.com",
+ "up": true,
  "since": "03 Nov 2026, 19:50 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../atl/"
 }
