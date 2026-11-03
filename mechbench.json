@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": "https://what-obtain-stockings-europe.trycloudflare.com",
- "up": true,
- "since": "03 Nov 2026, 21:28 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8092"
 }
