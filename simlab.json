@@ -1,9 +1,9 @@
 {
  "name": "Digital NCERT",
- "url": "https://circuit-advice-packard-productivity.trycloudflare.com",
- "up": true,
- "since": "04 Nov 2026, 11:57 IST",
- "stage": "up",
- "error": null,
+ "url": null,
+ "up": false,
+ "since": "04 Nov 2026, 16:30 IST",
+ "stage": "reconnecting",
+ "error": "the public address did not answer",
  "campus": "../?port=8091"
 }
