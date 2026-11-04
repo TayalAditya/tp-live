@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": "https://distances-gadgets-preparation-boats.trycloudflare.com",
- "up": true,
- "since": "04 Nov 2026, 17:45 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8092"
 }
