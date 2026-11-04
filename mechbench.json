@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": "https://distances-gadgets-preparation-boats.trycloudflare.com",
- "up": true,
- "since": "04 Nov 2026, 11:57 IST",
- "stage": "up",
- "error": null,
+ "url": null,
+ "up": false,
+ "since": "04 Nov 2026, 17:18 IST",
+ "stage": "app unavailable",
+ "error": "public check returned HTTP 502",
  "campus": "../?port=8092"
 }
