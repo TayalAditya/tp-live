@@ -2,8 +2,8 @@
  "name": "MakerBench",
  "url": null,
  "up": false,
- "since": "05 Nov 2026, 03:06 IST",
- "stage": "reconnecting",
- "error": "the public address did not answer",
+ "since": "05 Nov 2026, 03:07 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-04T21:37:15Z ERR no more connections active and exiting",
  "campus": "../?port=8093"
 }
