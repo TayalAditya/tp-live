@@ -1,9 +1,9 @@
 {
  "name": "Real World Lab",
- "url": null,
- "up": false,
- "since": "04 Nov 2026, 11:56 IST",
- "stage": "verifying",
+ "url": "https://carter-shoes-reuters-wizard.trycloudflare.com",
+ "up": true,
+ "since": "04 Nov 2026, 11:57 IST",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8094"
 }
