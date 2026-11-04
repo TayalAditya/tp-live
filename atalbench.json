@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": "https://sports-knives-broke-confidential.trycloudflare.com",
- "up": true,
- "since": "04 Nov 2026, 21:27 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../atl/"
 }
