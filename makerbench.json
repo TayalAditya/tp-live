@@ -1,9 +1,9 @@
 {
  "name": "MakerBench",
- "url": null,
- "up": false,
+ "url": "https://deutsch-lotus-organizational-trunk.trycloudflare.com",
+ "up": true,
  "since": "05 Nov 2026, 03:08 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8093"
 }
