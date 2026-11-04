@@ -1,9 +1,9 @@
 {
  "name": "MakerBench",
- "url": "https://fruit-classified-telecommunications-prostores.trycloudflare.com",
- "up": true,
- "since": "04 Nov 2026, 02:33 IST",
- "stage": "up",
- "error": null,
+ "url": null,
+ "up": false,
+ "since": "04 Nov 2026, 05:53 IST",
+ "stage": "reconnecting",
+ "error": "public check returned HTTP 530",
  "campus": "../?port=8093"
 }
