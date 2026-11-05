@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": "https://presented-either-jefferson-bouquet.trycloudflare.com",
- "up": true,
- "since": "05 Nov 2026, 03:08 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8092"
 }
