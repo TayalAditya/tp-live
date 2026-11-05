@@ -1,9 +1,9 @@
 {
  "name": "MakerBench",
- "url": null,
- "up": false,
- "since": "05 Nov 2026, 21:03 IST",
- "stage": "app unavailable",
- "error": "public check returned HTTP 502",
+ "url": "https://phrases-mesa-controlling-smile.trycloudflare.com",
+ "up": true,
+ "since": "05 Nov 2026, 21:04 IST",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8093"
 }
