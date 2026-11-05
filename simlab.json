@@ -1,9 +1,9 @@
 {
  "name": "Digital NCERT",
- "url": null,
- "up": false,
+ "url": "https://cursor-provisions-nec-daughters.trycloudflare.com",
+ "up": true,
  "since": "05 Nov 2026, 14:49 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8091"
 }
