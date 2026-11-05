@@ -70,12 +70,17 @@
    "id": "build-your-body",
    "name": "Build Your Body",
    "branch": "rpi",
-   "state": "deploying",
-   "live": null,
-   "live_since": null,
+   "state": "live",
+   "live": "2f2c0f5",
+   "live_since": "05 Nov 2026, 21:23 IST",
    "latest": "2f2c0f5",
    "paused": false,
-   "last": null
+   "last": {
+    "result": "live",
+    "commit": "2f2c0f5",
+    "stage": null,
+    "at": "05 Nov 2026, 21:23 IST"
+   }
   },
   {
    "id": "dofa-sim",
