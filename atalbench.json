@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
+ "url": "https://black-geographical-tough-operators.trycloudflare.com",
+ "up": true,
  "since": "05 Nov 2026, 13:43 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../atl/"
 }
