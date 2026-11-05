@@ -1,5 +1,5 @@
 {
- "updated": "05 Nov 2026, 21:22 IST",
+ "updated": "05 Nov 2026, 21:23 IST",
  "dashboard": "http://172.16.5.218:8099/",
  "apps": [
   {
@@ -70,10 +70,10 @@
    "id": "build-your-body",
    "name": "Build Your Body",
    "branch": "rpi",
-   "state": "unknown",
+   "state": "deploying",
    "live": null,
    "live_since": null,
-   "latest": null,
+   "latest": "2f2c0f5",
    "paused": false,
    "last": null
   },
