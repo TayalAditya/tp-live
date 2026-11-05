@@ -1,9 +1,9 @@
 {
  "name": "NewShiksha",
- "url": null,
- "up": false,
+ "url": "https://hit-agreed-checks-chapter.trycloudflare.com",
+ "up": true,
  "since": "05 Nov 2026, 11:01 IST",
- "stage": "app unavailable",
- "error": "public check returned HTTP 502",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8096"
 }
