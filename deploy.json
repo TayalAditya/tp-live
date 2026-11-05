@@ -67,6 +67,17 @@
    }
   },
   {
+   "id": "build-your-body",
+   "name": "Build Your Body",
+   "branch": "rpi",
+   "state": "unknown",
+   "live": null,
+   "live_since": null,
+   "latest": null,
+   "paused": false,
+   "last": null
+  },
+  {
    "id": "dofa-sim",
    "name": "Simulation Lab",
    "branch": "rpi",
