@@ -79,7 +79,12 @@
       var stale = !isNaN(checked) && Date.now() - checked > 45 * 60 * 1000;
       if (info.up && info.url && !stale) { location.replace(info.url + path + qs + hash); return; }
       if (info.url) info.lastUrl = info.url;
-      show(info, stale);
+      // The root of the published site no longer leads to the Pi, so the campus link is built from its address.
+      fetch(bust(live + 'address.txt'), { cache: 'no-store' }).then(function (r) { return r.ok ? r.text() : ''; }).catch(function () { return ''; }).then(function (a) {
+        a = a.trim();
+        info.campus = /^[0-9.]+$/.test(a) ? 'http://' + a + ':8098/' : null;
+        show(info, stale);
+      });
     }).catch(function () { show({ campus: page === 'atalbench' ? '../atl/' : null }, false); $('note').textContent = 'The address of the lab Pi could not be read. Check the internet connection and try again.'; });
   }
   $('again').addEventListener('click', function () { $('ways').hidden = true; $('note').textContent = 'Checking again.'; go(); });
