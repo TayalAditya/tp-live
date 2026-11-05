@@ -1,9 +1,9 @@
 {
  "name": "NewShiksha",
- "url": null,
- "up": false,
+ "url": "https://words-immunology-preferred-prefer.trycloudflare.com",
+ "up": true,
  "since": "05 Nov 2026, 19:36 IST",
- "stage": "reconnecting",
- "error": "the public address did not answer",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8096"
 }
