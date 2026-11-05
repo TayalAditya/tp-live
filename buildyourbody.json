@@ -1,9 +1,9 @@
 {
  "name": "Build Your Body",
- "url": null,
- "up": false,
- "since": "05 Nov 2026, 21:22 IST",
- "stage": "app unavailable",
- "error": "public check returned HTTP 502",
+ "url": "https://implementation-receivers-nations-definitely.trycloudflare.com",
+ "up": true,
+ "since": "05 Nov 2026, 21:23 IST",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8098"
 }
