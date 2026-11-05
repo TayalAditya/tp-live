@@ -70,16 +70,16 @@
    "id": "build-your-body",
    "name": "Build Your Body",
    "branch": "rpi",
-   "state": "deploying",
-   "live": "cefbafa",
-   "live_since": "05 Nov 2026, 21:40 IST",
+   "state": "live",
+   "live": "0be8ae7",
+   "live_since": "05 Nov 2026, 23:44 IST",
    "latest": "0be8ae7",
    "paused": false,
    "last": {
     "result": "live",
-    "commit": "cefbafa",
+    "commit": "0be8ae7",
     "stage": null,
-    "at": "05 Nov 2026, 21:40 IST"
+    "at": "05 Nov 2026, 23:44 IST"
    }
   },
   {
