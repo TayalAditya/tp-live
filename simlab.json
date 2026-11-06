@@ -1,9 +1,9 @@
 {
  "name": "Digital NCERT",
- "url": "https://hawaiian-dining-rotation-increase.trycloudflare.com",
- "up": true,
- "since": "06 Nov 2026, 19:06 IST",
- "stage": "up",
- "error": null,
+ "url": null,
+ "up": false,
+ "since": "07 Nov 2026, 00:31 IST",
+ "stage": "reconnecting",
+ "error": "public check returned HTTP 530",
  "campus": "../?port=8091"
 }
