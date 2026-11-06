@@ -1,9 +1,9 @@
 {
  "name": "Real World Lab",
- "url": "https://camp-resumes-elevation-restricted.trycloudflare.com",
- "up": true,
- "since": "06 Nov 2026, 19:06 IST",
- "stage": "up",
- "error": null,
+ "url": null,
+ "up": false,
+ "since": "07 Nov 2026, 04:33 IST",
+ "stage": "app unavailable",
+ "error": "public check returned HTTP 502",
  "campus": "../?port=8094"
 }
