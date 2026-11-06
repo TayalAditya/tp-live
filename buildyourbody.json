@@ -1,9 +1,9 @@
 {
  "name": "Build Your Body",
- "url": null,
- "up": false,
- "since": "07 Nov 2026, 00:31 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "url": "https://warrior-opportunity-growth-democracy.trycloudflare.com",
+ "up": true,
+ "since": "07 Nov 2026, 00:32 IST",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8098"
 }
