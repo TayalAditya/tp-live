@@ -1,9 +1,9 @@
 {
  "name": "Real World Lab",
- "url": null,
- "up": false,
+ "url": "https://teaching-barrier-lots-local.trycloudflare.com",
+ "up": true,
  "since": "06 Nov 2026, 07:05 IST",
- "stage": "app unavailable",
- "error": "public check returned HTTP 502",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8094"
 }
