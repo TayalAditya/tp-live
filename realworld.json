@@ -1,9 +1,9 @@
 {
  "name": "Real World Lab",
- "url": null,
- "up": false,
+ "url": "https://heaven-disclaimer-major-goto.trycloudflare.com",
+ "up": true,
  "since": "06 Nov 2026, 18:24 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8094"
 }
