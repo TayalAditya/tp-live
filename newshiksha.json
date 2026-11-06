@@ -1,9 +1,9 @@
 {
  "name": "NewShiksha",
- "url": "https://livecam-six-decent-jewellery.trycloudflare.com",
- "up": true,
- "since": "05 Nov 2026, 21:22 IST",
- "stage": "up",
- "error": null,
+ "url": null,
+ "up": false,
+ "since": "06 Nov 2026, 12:06 IST",
+ "stage": "app unavailable",
+ "error": "public check returned HTTP 502",
  "campus": "../?port=8096"
 }
