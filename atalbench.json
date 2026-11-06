@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": "https://budget-transparency-luggage-value.trycloudflare.com",
- "up": true,
- "since": "06 Nov 2026, 18:24 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../atl/"
 }
