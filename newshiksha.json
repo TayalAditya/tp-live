@@ -1,9 +1,9 @@
 {
  "name": "NewShiksha",
- "url": "https://packed-formerly-sydney-mls.trycloudflare.com",
- "up": true,
- "since": "06 Nov 2026, 18:42 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8096"
 }
