@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": "06 Nov 2026, 12:06 IST",
- "stage": "app unavailable",
- "error": "public check returned HTTP 502",
+ "stage": "reconnecting",
+ "error": "public check returned HTTP 530",
  "campus": "../?port=8096"
 }
