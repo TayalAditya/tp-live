@@ -1,9 +1,9 @@
 {
  "name": "NewShiksha",
- "url": null,
- "up": false,
+ "url": "https://salvador-barn-children-monday.trycloudflare.com",
+ "up": true,
  "since": "06 Nov 2026, 13:49 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8096"
 }
