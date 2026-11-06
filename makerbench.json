@@ -1,9 +1,9 @@
 {
  "name": "MakerBench",
- "url": null,
- "up": false,
+ "url": "https://wow-moms-estate-assembly.trycloudflare.com",
+ "up": true,
  "since": "06 Nov 2026, 18:24 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8093"
 }
