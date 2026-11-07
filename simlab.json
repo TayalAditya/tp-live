@@ -1,9 +1,9 @@
 {
  "name": "Digital NCERT",
- "url": null,
- "up": false,
- "since": "07 Nov 2026, 08:44 IST",
- "stage": "app unavailable",
- "error": "public check returned HTTP 502",
+ "url": "https://resumes-arrested-involvement-developmental.trycloudflare.com",
+ "up": true,
+ "since": "07 Nov 2026, 08:45 IST",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8091"
 }
