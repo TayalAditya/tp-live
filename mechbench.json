@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": "https://streams-liverpool-embedded-sisters.trycloudflare.com",
- "up": true,
- "since": "07 Nov 2026, 05:40 IST",
- "stage": "up",
- "error": null,
+ "url": null,
+ "up": false,
+ "since": "07 Nov 2026, 05:41 IST",
+ "stage": "reconnecting",
+ "error": "public check returned HTTP 530",
  "campus": "../?port=8092"
 }
