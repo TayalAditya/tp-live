@@ -1,9 +1,9 @@
 {
  "name": "NewShiksha",
- "url": null,
- "up": false,
+ "url": "https://miller-prevention-ian-vacation.trycloudflare.com",
+ "up": true,
  "since": "07 Nov 2026, 11:11 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8096"
 }
