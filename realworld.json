@@ -1,9 +1,9 @@
 {
  "name": "Real World Lab",
- "url": null,
- "up": false,
+ "url": "https://adventures-zus-rates-pants.trycloudflare.com",
+ "up": true,
  "since": "07 Nov 2026, 11:11 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8094"
 }
