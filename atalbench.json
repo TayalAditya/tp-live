@@ -2,8 +2,8 @@
  "name": "ATaLBench",
  "url": null,
  "up": false,
- "since": "07 Nov 2026, 05:40 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "since": "07 Nov 2026, 05:41 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-07T00:11:28Z ERR no more connections active and exiting",
  "campus": "../atl/"
 }
