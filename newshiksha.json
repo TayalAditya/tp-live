@@ -2,8 +2,8 @@
  "name": "NewShiksha",
  "url": null,
  "up": false,
- "since": "09 Nov 2026, 01:35 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "since": "09 Nov 2026, 01:36 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-08T20:06:29Z ERR failed to serve incoming request error=\"Error shutting down control stream: context deadline exceeded\"",
  "campus": "../?port=8096"
 }
