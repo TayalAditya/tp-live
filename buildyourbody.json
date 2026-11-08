@@ -1,9 +1,9 @@
 {
  "name": "Build Your Body",
- "url": null,
- "up": false,
+ "url": "https://node-submitted-causes-resist.trycloudflare.com",
+ "up": true,
  "since": "08 Nov 2026, 22:20 IST",
- "stage": "reconnecting",
- "error": "the public address did not answer",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8098"
 }
