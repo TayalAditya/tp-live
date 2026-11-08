@@ -1,9 +1,9 @@
 {
  "name": "Real World Lab",
- "url": null,
- "up": false,
+ "url": "https://decorative-deutsch-hills-leather.trycloudflare.com",
+ "up": true,
  "since": "08 Nov 2026, 22:19 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8094"
 }
