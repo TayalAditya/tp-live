@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
+ "url": "https://yesterday-priest-baghdad-rounds.trycloudflare.com",
+ "up": true,
  "since": "08 Nov 2026, 09:03 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../atl/"
 }
