@@ -2,8 +2,8 @@
  "name": "MakerBench",
  "url": null,
  "up": false,
- "since": "08 Nov 2026, 09:01 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "since": "08 Nov 2026, 09:02 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-08T03:32:31Z ERR no more connections active and exiting",
  "campus": "../?port=8093"
 }
