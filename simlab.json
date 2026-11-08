@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": "08 Nov 2026, 22:19 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-08T16:49:40Z ERR no more connections active and exiting",
  "campus": "../?port=8091"
 }
