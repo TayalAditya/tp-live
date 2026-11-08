@@ -1,9 +1,9 @@
 {
  "name": "MakerBench",
- "url": null,
- "up": false,
+ "url": "https://shirts-overcome-operations-treasury.trycloudflare.com",
+ "up": true,
  "since": "08 Nov 2026, 16:20 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8093"
 }
