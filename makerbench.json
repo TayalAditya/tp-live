@@ -1,9 +1,9 @@
 {
  "name": "MakerBench",
- "url": "https://clock-situated-links-radius.trycloudflare.com",
- "up": true,
- "since": "08 Nov 2026, 09:03 IST",
- "stage": "up",
- "error": null,
+ "url": null,
+ "up": false,
+ "since": "08 Nov 2026, 16:19 IST",
+ "stage": "reconnecting",
+ "error": "public check returned HTTP 530",
  "campus": "../?port=8093"
 }
