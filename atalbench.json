@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": "https://encryption-bright-fighters-underwear.trycloudflare.com",
- "up": true,
- "since": "07 Nov 2026, 05:42 IST",
- "stage": "up",
- "error": null,
+ "url": null,
+ "up": false,
+ "since": "08 Nov 2026, 09:01 IST",
+ "stage": "reconnecting",
+ "error": "public check returned HTTP 530",
  "campus": "../atl/"
 }
