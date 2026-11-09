@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": null,
- "up": false,
- "since": "09 Nov 2026, 16:10 IST",
- "stage": "reconnecting",
- "error": "the public address did not answer",
+ "url": "https://adjustment-das-structure-webcast.trycloudflare.com",
+ "up": true,
+ "since": "09 Nov 2026, 16:11 IST",
+ "stage": "up",
+ "error": null,
  "campus": "../?port=8092"
 }
