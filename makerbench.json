@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": "09 Nov 2026, 10:52 IST",
- "stage": "verifying",
- "error": null,
+ "stage": "reconnecting",
+ "error": "the public address did not answer",
  "campus": "../?port=8093"
 }
