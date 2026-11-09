@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
+ "url": "https://annually-insulin-owns-extraction.trycloudflare.com",
+ "up": true,
  "since": "09 Nov 2026, 18:35 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../atl/"
 }
