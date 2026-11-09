@@ -1,9 +1,9 @@
 {
  "name": "Digital NCERT",
- "url": null,
- "up": false,
+ "url": "https://planners-crystal-consistency-wall.trycloudflare.com",
+ "up": true,
  "since": "10 Nov 2026, 01:29 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8091"
 }
