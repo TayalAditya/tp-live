@@ -1,9 +1,9 @@
 {
  "name": "Real World Lab",
- "url": "https://mem-ends-short-acquisitions.trycloudflare.com",
- "up": true,
- "since": "09 Nov 2026, 16:10 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8094"
 }
