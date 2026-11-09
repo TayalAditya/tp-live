@@ -2,8 +2,8 @@
  "name": "MechBench",
  "url": null,
  "up": false,
- "since": "09 Nov 2026, 10:50 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "since": "09 Nov 2026, 10:51 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-09T05:21:37Z ERR failed to serve incoming request error=\"Error shutting down control stream: context canceled\"",
  "campus": "../?port=8092"
 }
