@@ -2,8 +2,8 @@
  "name": "Digital NCERT",
  "url": null,
  "up": false,
- "since": "09 Nov 2026, 16:07 IST",
- "stage": "reconnecting",
- "error": "the public address did not answer",
+ "since": "09 Nov 2026, 16:09 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-09T10:39:06Z ERR failed to serve incoming request error=\"Error shutting down control stream: context canceled\"",
  "campus": "../?port=8091"
 }
