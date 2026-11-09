@@ -2,8 +2,8 @@
  "name": "MechBench",
  "url": null,
  "up": false,
- "since": "09 Nov 2026, 16:08 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "since": "09 Nov 2026, 16:09 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-09T10:38:50Z ERR Connection terminated error=\"DialContext error: dial tcp 198.41.192.167:7844: connect: network is unreachable\" connIndex=0",
  "campus": "../?port=8092"
 }
