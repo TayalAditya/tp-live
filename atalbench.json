@@ -1,9 +1,9 @@
 {
  "name": "ATaLBench",
- "url": null,
- "up": false,
+ "url": "https://luggage-individuals-monkey-cape.trycloudflare.com",
+ "up": true,
  "since": "10 Nov 2026, 01:29 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../atl/"
 }
