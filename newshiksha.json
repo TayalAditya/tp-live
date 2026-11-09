@@ -1,9 +1,9 @@
 {
  "name": "NewShiksha",
- "url": null,
- "up": false,
+ "url": "https://temp-features-schedules-climb.trycloudflare.com",
+ "up": true,
  "since": "10 Nov 2026, 01:29 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8096"
 }
