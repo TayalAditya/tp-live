@@ -1,9 +1,9 @@
 {
  "name": "Build Your Body",
- "url": null,
- "up": false,
+ "url": "https://shows-bright-book-medal.trycloudflare.com",
+ "up": true,
  "since": "10 Nov 2026, 01:29 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8098"
 }
