@@ -1,9 +1,9 @@
 {
  "name": "Build Your Body",
- "url": null,
- "up": false,
- "since": "10 Nov 2026, 11:05 IST",
- "stage": "verifying",
+ "url": "https://jacob-programmes-til-flexible.trycloudflare.com",
+ "up": true,
+ "since": "10 Nov 2026, 11:06 IST",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8098"
 }
