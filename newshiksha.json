@@ -1,9 +1,9 @@
 {
  "name": "NewShiksha",
- "url": null,
- "up": false,
+ "url": "https://jun-cycling-resource-louise.trycloudflare.com",
+ "up": true,
  "since": "10 Nov 2026, 11:06 IST",
- "stage": "verifying",
+ "stage": "up",
  "error": null,
  "campus": "../?port=8096"
 }
