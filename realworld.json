@@ -1,9 +1,9 @@
 {
  "name": "Real World Lab",
- "url": "https://hoping-attractive-exec-gps.trycloudflare.com",
- "up": true,
- "since": "10 Nov 2026, 12:57 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8094"
 }
