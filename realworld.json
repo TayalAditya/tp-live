@@ -2,8 +2,8 @@
  "name": "Real World Lab",
  "url": null,
  "up": false,
- "since": "10 Nov 2026, 11:04 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "since": "10 Nov 2026, 11:05 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-10T05:35:02Z ERR failed to serve incoming request error=\"Error shutting down control stream: context deadline exceeded\"",
  "campus": "../?port=8094"
 }
