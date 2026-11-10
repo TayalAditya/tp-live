@@ -1,9 +1,9 @@
 {
  "name": "MechBench",
- "url": "https://solving-accomplish-mind-rosa.trycloudflare.com",
- "up": true,
- "since": "10 Nov 2026, 11:06 IST",
- "stage": "up",
+ "url": null,
+ "up": false,
+ "since": null,
+ "stage": "connecting",
  "error": null,
  "campus": "../?port=8092"
 }
