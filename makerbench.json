@@ -1,9 +1,9 @@
 {
  "name": "MakerBench",
- "url": "https://preview-santa-remain-loads.trycloudflare.com",
- "up": true,
- "since": "10 Nov 2026, 16:34 IST",
- "stage": "up",
- "error": null,
+ "url": null,
+ "up": false,
+ "since": "15 Nov 2026, 22:02 IST",
+ "stage": "app unavailable",
+ "error": "public check returned HTTP 502",
  "campus": "../?port=8093"
 }
