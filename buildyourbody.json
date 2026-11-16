@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": "16 Nov 2026, 08:05 IST",
- "stage": "down",
- "error": "the public address stopped answering; last error: 2026-11-16T02:35:43Z ERR no more connections active and exiting",
+ "stage": "connecting",
+ "error": null,
  "campus": "../?port=8098"
 }
