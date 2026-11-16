@@ -2,8 +2,8 @@
  "name": "ATaLBench",
  "url": null,
  "up": false,
- "since": "15 Nov 2026, 23:40 IST",
- "stage": "reconnecting",
- "error": "the public address did not answer",
+ "since": "16 Nov 2026, 18:54 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-16T13:24:11Z ERR no more connections active and exiting",
  "campus": "../atl/"
 }
