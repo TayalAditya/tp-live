@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": null,
- "stage": "connecting",
- "error": null,
+ "stage": "down",
+ "error": "cloudflared stopped (exit 1); last error: 2026-11-17T05:12:41Z ERR Initiating shutdown error=\"Could not lookup srv records on _v2-origintunneld._tcp.argotunnel.com: lookup _v2-origintunneld._tcp.argotunnel.com on 127.0.0.53:53: no such host\"",
  "campus": "../?port=8093"
 }
