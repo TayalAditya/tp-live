@@ -2,8 +2,8 @@
  "name": "NewShiksha",
  "url": null,
  "up": false,
- "since": "17 Nov 2026, 15:22 IST",
- "stage": "reconnecting",
- "error": "the public address did not answer",
+ "since": "17 Nov 2026, 16:41 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-17T11:11:51Z ERR no more connections active and exiting",
  "campus": "../?port=8096"
 }
