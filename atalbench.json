@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": "18 Nov 2026, 01:44 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "stage": "app unavailable",
+ "error": "public check returned HTTP 502",
  "campus": "../atl/"
 }
