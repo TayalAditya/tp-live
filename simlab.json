@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": "17 Nov 2026, 15:00 IST",
- "stage": "connecting",
- "error": null,
+ "stage": "down",
+ "error": "cloudflared stopped (exit 1)",
  "campus": "../?port=8091"
 }
