@@ -2,8 +2,8 @@
  "name": "Digital NCERT",
  "url": null,
  "up": false,
- "since": "18 Nov 2026, 10:11 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "since": "18 Nov 2026, 10:51 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-18T05:21:31Z ERR failed to serve incoming request error=\"Error shutting down control stream: context deadline exceeded\"",
  "campus": "../?port=8091"
 }
