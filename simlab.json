@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": null,
- "stage": "down",
- "error": "no connection to Cloudflare within 2 minutes",
+ "stage": "connecting",
+ "error": null,
  "campus": "../?port=8091"
 }
