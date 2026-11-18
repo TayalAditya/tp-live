@@ -2,8 +2,8 @@
  "name": "NewShiksha",
  "url": null,
  "up": false,
- "since": "18 Nov 2026, 17:18 IST",
- "stage": "app unavailable",
- "error": "public check returned HTTP 502",
+ "since": null,
+ "stage": "connecting",
+ "error": null,
  "campus": "../?port=8096"
 }
