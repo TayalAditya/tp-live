@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": "18 Nov 2026, 17:53 IST",
- "stage": "verifying",
- "error": null,
+ "stage": "reconnecting",
+ "error": "public check returned HTTP 530",
  "campus": "../?port=8092"
 }
