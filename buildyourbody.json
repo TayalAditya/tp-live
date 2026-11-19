@@ -2,8 +2,8 @@
  "name": "Build Your Body",
  "url": null,
  "up": false,
- "since": "19 Nov 2026, 15:21 IST",
- "stage": "app unavailable",
- "error": "public check returned HTTP 502",
+ "since": null,
+ "stage": "connecting",
+ "error": null,
  "campus": "../?port=8098"
 }
