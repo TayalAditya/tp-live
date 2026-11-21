@@ -2,8 +2,8 @@
  "name": "Digital NCERT",
  "url": null,
  "up": false,
- "since": "21 Nov 2026, 10:45 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "since": "21 Nov 2026, 10:46 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-21T05:16:56Z ERR no more connections active and exiting",
  "campus": "../?port=8091"
 }
