@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": null,
- "stage": "down",
- "error": "no connection to Cloudflare within 2 minutes; last error: 2026-11-21T05:15:51Z ERR failed to serve incoming request error=\"context canceled\"",
+ "stage": "connecting",
+ "error": null,
  "campus": "../?port=8094"
 }
