@@ -2,8 +2,8 @@
  "name": "Build Your Body",
  "url": null,
  "up": false,
- "since": "23 Nov 2026, 09:56 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "since": "24 Nov 2026, 08:59 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-24T03:29:06Z ERR failed to serve incoming request error=\"Error shutting down control stream: context canceled\"",
  "campus": "../?port=8098"
 }
