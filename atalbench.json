@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": "24 Nov 2026, 14:50 IST",
- "stage": "down",
- "error": "the public address stopped answering; last error: 2026-11-24T09:20:56Z ERR failed to serve incoming request error=\"Error shutting down control stream: context canceled\"",
+ "stage": "connecting",
+ "error": null,
  "campus": "../atl/"
 }
