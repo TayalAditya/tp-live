@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": "25 Nov 2026, 17:06 IST",
- "stage": "down",
- "error": "the public address stopped answering; last error: 2026-11-25T11:36:06Z ERR no more connections active and exiting",
+ "stage": "connecting",
+ "error": null,
  "campus": "../atl/"
 }
