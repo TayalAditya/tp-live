@@ -2,8 +2,8 @@
  "name": "ATaLBench",
  "url": null,
  "up": false,
- "since": "25 Nov 2026, 08:18 IST",
- "stage": "reconnecting",
- "error": "public check returned HTTP 530",
+ "since": "25 Nov 2026, 10:15 IST",
+ "stage": "down",
+ "error": "the public address stopped answering; last error: 2026-11-25T04:45:14Z ERR failed to serve incoming request error=\"Error shutting down control stream: context canceled\"",
  "campus": "../atl/"
 }
