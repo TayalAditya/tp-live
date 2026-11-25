@@ -3,7 +3,7 @@
  "url": null,
  "up": false,
  "since": "25 Nov 2026, 08:18 IST",
- "stage": "down",
- "error": "the public address stopped answering; last error: 2026-11-25T02:48:00Z ERR failed to serve incoming request error=\"Error shutting down control stream: context canceled\"",
+ "stage": "connecting",
+ "error": null,
  "campus": "../?port=8096"
 }
